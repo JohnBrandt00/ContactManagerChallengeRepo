@@ -1872,3 +1872,1543 @@ ORDER BY [t].[Id], [e].[Id]
 2023-03-21 18:15:20.564 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/elmah/exception/System.InvalidOperationException - - - 200 - application/json 0.2341ms
 2023-03-21 18:15:21.361 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/elmah/api/new-errors?id=a1b7af63-ad43-4c49-a488-f0921adcc667 - -
 2023-03-21 18:15:21.362 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/elmah/api/new-errors?id=a1b7af63-ad43-4c49-a488-f0921adcc667 - - - 200 - application/json 1.1650ms
+2023-03-22 10:35:16.060 -04:00 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+SELECT 1
+2023-03-22 10:35:16.102 -04:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-03-22 10:35:16.104 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+SELECT 1
+2023-03-22 10:35:16.104 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-03-22 10:35:16.129 -04:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-03-22 10:35:16.144 -04:00 [INF] No migrations were applied. The database is already up to date.
+2023-03-22 10:35:16.457 -04:00 [INF] User profile is available. Using 'C:\Users\notjo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-22 10:35:16.864 -04:00 [INF] Now listening on: https://localhost:7276
+2023-03-22 10:35:16.864 -04:00 [INF] Now listening on: http://localhost:5276
+2023-03-22 10:35:16.866 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-22 10:35:16.866 -04:00 [INF] Hosting environment: Development
+2023-03-22 10:35:16.866 -04:00 [INF] Content root path: O:\TestRepoSAB\ContactManagerStarter
+2023-03-22 10:35:17.647 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/ - -
+2023-03-22 10:35:17.718 -04:00 [INF] Executing endpoint 'ContactManagerStarter.Controllers.HomeController.Index (ContactManagerStarter)'
+2023-03-22 10:35:17.730 -04:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ContactManagerStarter.Controllers.HomeController (ContactManagerStarter).
+2023-03-22 10:35:17.747 -04:00 [INF] Executing ViewResult, running view Index.
+2023-03-22 10:35:17.933 -04:00 [INF] Executed ViewResult - view Index executed in 193.8522ms.
+2023-03-22 10:35:17.937 -04:00 [INF] Executed action ContactManagerStarter.Controllers.HomeController.Index (ContactManagerStarter) in 206.7591ms
+2023-03-22 10:35:17.938 -04:00 [INF] Executed endpoint 'ContactManagerStarter.Controllers.HomeController.Index (ContactManagerStarter)'
+2023-03-22 10:35:17.995 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/ - - - 200 - text/html;+charset=utf-8 351.0823ms
+2023-03-22 10:35:18.023 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - -
+2023-03-22 10:35:18.023 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/lib/bootstrap/dist/css/bootstrap.css - -
+2023-03-22 10:35:18.024 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/lib/jquery/dist/jquery.js - -
+2023-03-22 10:35:18.030 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/css/site.css - -
+2023-03-22 10:35:18.030 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/css/themify-icons.css - -
+2023-03-22 10:35:18.033 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/lib/bootstrap/dist/js/bootstrap.bundle.js - -
+2023-03-22 10:35:18.073 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/lib/signalr/dist/browser/signalr.js - -
+2023-03-22 10:35:18.079 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-03-22 10:35:18.100 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 77.1853ms
+2023-03-22 10:35:18.135 -04:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'O:\TestRepoSAB\ContactManagerStarter\wwwroot\js\site.js'
+2023-03-22 10:35:18.136 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 text/javascript 56.7647ms
+2023-03-22 10:35:18.138 -04:00 [INF] Sending file. Request path: '/css/themify-icons.css'. Physical path: 'O:\TestRepoSAB\ContactManagerStarter\wwwroot\css\themify-icons.css'
+2023-03-22 10:35:18.138 -04:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'O:\TestRepoSAB\ContactManagerStarter\wwwroot\css\site.css'
+2023-03-22 10:35:18.138 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/css/themify-icons.css - - - 200 17531 text/css 108.0528ms
+2023-03-22 10:35:18.138 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/css/site.css - - - 200 2062 text/css 108.2365ms
+2023-03-22 10:35:18.175 -04:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: 'O:\TestRepoSAB\ContactManagerStarter\wwwroot\lib\bootstrap\dist\css\bootstrap.css'
+2023-03-22 10:35:18.175 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/lib/bootstrap/dist/css/bootstrap.css - - - 200 207393 text/css 152.1146ms
+2023-03-22 10:35:18.184 -04:00 [INF] Sending file. Request path: '/lib/signalr/dist/browser/signalr.js'. Physical path: 'O:\TestRepoSAB\ContactManagerStarter\wwwroot\lib\signalr\dist\browser\signalr.js'
+2023-03-22 10:35:18.185 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/lib/signalr/dist/browser/signalr.js - - - 200 229992 text/javascript 112.3803ms
+2023-03-22 10:35:18.186 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/_vs/browserLink - -
+2023-03-22 10:35:18.185 -04:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.js'. Physical path: 'O:\TestRepoSAB\ContactManagerStarter\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js'
+2023-03-22 10:35:18.189 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/lib/bootstrap/dist/js/bootstrap.bundle.js - - - 200 235114 text/javascript 155.3467ms
+2023-03-22 10:35:18.216 -04:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'O:\TestRepoSAB\ContactManagerStarter\wwwroot\lib\jquery\dist\jquery.js'
+2023-03-22 10:35:18.216 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/lib/jquery/dist/jquery.js - - - 200 282115 text/javascript 191.7041ms
+2023-03-22 10:35:18.309 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 137.5667ms
+2023-03-22 10:35:20.208 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts - -
+2023-03-22 10:35:20.212 -04:00 [INF] Executing endpoint 'ContactManager.Controllers.ContactsController.Index (ContactManagerStarter)'
+2023-03-22 10:35:20.214 -04:00 [INF] Route matched with {action = "Index", controller = "Contacts"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ContactManager.Controllers.ContactsController (ContactManagerStarter).
+2023-03-22 10:35:20.243 -04:00 [INF] [Logger] 3/22/2023 10:35:20 AM: Reached Index
+2023-03-22 10:35:20.248 -04:00 [INF] Executing ViewResult, running view Index.
+2023-03-22 10:35:20.258 -04:00 [INF] Executed ViewResult - view Index executed in 15.1101ms.
+2023-03-22 10:35:20.259 -04:00 [INF] Executed action ContactManager.Controllers.ContactsController.Index (ContactManagerStarter) in 44.6948ms
+2023-03-22 10:35:20.259 -04:00 [INF] Executed endpoint 'ContactManager.Controllers.ContactsController.Index (ContactManagerStarter)'
+2023-03-22 10:35:20.262 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts - - - 200 - text/html;+charset=utf-8 54.6783ms
+2023-03-22 10:35:20.280 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/lib/bootstrap/dist/css/bootstrap.css - -
+2023-03-22 10:35:20.282 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/css/site.css - -
+2023-03-22 10:35:20.283 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/css/themify-icons.css - -
+2023-03-22 10:35:20.283 -04:00 [INF] The file /css/site.css was not modified
+2023-03-22 10:35:20.284 -04:00 [INF] The file /css/themify-icons.css was not modified
+2023-03-22 10:35:20.283 -04:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.css was not modified
+2023-03-22 10:35:20.284 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/css/themify-icons.css - - - 304 - text/css 1.7562ms
+2023-03-22 10:35:20.283 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/lib/bootstrap/dist/js/bootstrap.bundle.js - -
+2023-03-22 10:35:20.284 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/lib/jquery/dist/jquery.js - -
+2023-03-22 10:35:20.284 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/js/ContactTable.js - -
+2023-03-22 10:35:20.284 -04:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.js was not modified
+2023-03-22 10:35:20.284 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - -
+2023-03-22 10:35:20.284 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/css/site.css - - - 304 - text/css 2.0109ms
+2023-03-22 10:35:20.284 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/lib/bootstrap/dist/css/bootstrap.css - - - 304 - text/css 3.9972ms
+2023-03-22 10:35:20.286 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 2.3120ms
+2023-03-22 10:35:20.284 -04:00 [INF] The file /lib/jquery/dist/jquery.js was not modified
+2023-03-22 10:35:20.287 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/lib/jquery/dist/jquery.js - - - 304 - text/javascript 3.7862ms
+2023-03-22 10:35:20.285 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/lib/bootstrap/dist/js/bootstrap.bundle.js - - - 304 - text/javascript 1.0888ms
+2023-03-22 10:35:20.285 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-03-22 10:35:20.289 -04:00 [INF] The file /js/site.js was not modified
+2023-03-22 10:35:20.289 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 304 - text/javascript 3.8267ms
+2023-03-22 10:35:20.289 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/lib/signalr/dist/browser/signalr.js - -
+2023-03-22 10:35:20.289 -04:00 [INF] The file /lib/signalr/dist/browser/signalr.js was not modified
+2023-03-22 10:35:20.290 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/lib/signalr/dist/browser/signalr.js - - - 304 - text/javascript 4.3572ms
+2023-03-22 10:35:20.314 -04:00 [INF] Sending file. Request path: '/js/ContactTable.js'. Physical path: 'O:\TestRepoSAB\ContactManagerStarter\wwwroot\js\ContactTable.js'
+2023-03-22 10:35:20.314 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/js/ContactTable.js - - - 200 11566 text/javascript 29.4944ms
+2023-03-22 10:35:20.332 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/_vs/browserLink - -
+2023-03-22 10:35:20.377 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts/GetContacts application/json;+charset=utf-8 -
+2023-03-22 10:35:20.381 -04:00 [INF] Request starting HTTP/2 POST https://localhost:7276/contactHub/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0
+2023-03-22 10:35:20.390 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 57.7759ms
+2023-03-22 10:35:20.393 -04:00 [INF] Executing endpoint 'ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter)'
+2023-03-22 10:35:20.393 -04:00 [INF] Executing endpoint '/contacthub/negotiate'
+2023-03-22 10:35:20.399 -04:00 [INF] Route matched with {action = "GetContacts", controller = "Contacts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetContacts() on controller ContactManager.Controllers.ContactsController (ContactManagerStarter).
+2023-03-22 10:35:20.427 -04:00 [INF] Executed endpoint '/contacthub/negotiate'
+2023-03-22 10:35:20.429 -04:00 [INF] Request finished HTTP/2 POST https://localhost:7276/contactHub/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 - 200 316 application/json 48.1479ms
+2023-03-22 10:35:20.435 -04:00 [INF] Request starting HTTP/2 CONNECT https://localhost:7276/contactHub?id=QtML60lN6wqLbqRZHZssKg - -
+2023-03-22 10:35:20.435 -04:00 [INF] Executing endpoint '/contacthub'
+2023-03-22 10:35:20.884 -04:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+SELECT [c].[Id], [c].[DOB], [c].[FirstName], [c].[LastName], [c].[Title]
+FROM [Contacts] AS [c]
+ORDER BY [c].[FirstName]
+2023-03-22 10:35:21.007 -04:00 [INF] Executing PartialViewResult, running view _ContactTable.
+2023-03-22 10:35:21.088 -04:00 [INF] Executed PartialViewResult - view _ContactTable executed in 81.6195ms.
+2023-03-22 10:35:21.088 -04:00 [INF] Executed action ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter) in 689.2313ms
+2023-03-22 10:35:21.088 -04:00 [INF] Executed endpoint 'ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter)'
+2023-03-22 10:35:21.092 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts/GetContacts application/json;+charset=utf-8 - - 200 - text/html;+charset=utf-8 715.4426ms
+2023-03-22 10:35:22.212 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=930d4f10-9daf-4582-b4bb-cb9abfd382b3 application/json;+charset=utf-8 -
+2023-03-22 10:35:22.213 -04:00 [INF] Executing endpoint 'ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)'
+2023-03-22 10:35:22.223 -04:00 [INF] Route matched with {action = "EditContact", controller = "Contacts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditContact(System.Guid) on controller ContactManager.Controllers.ContactsController (ContactManagerStarter).
+2023-03-22 10:35:22.402 -04:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2023-03-22 10:35:22.476 -04:00 [INF] Executed DbCommand (54ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='600']
+SELECT [t].[Id], [t].[DOB], [t].[FirstName], [t].[LastName], [t].[Title], [e].[Id], [e].[ContactId], [e].[Email], [e].[IsPrimary], [e].[Type], [a].[Id], [a].[City], [a].[ContactId], [a].[State], [a].[Street1], [a].[Street2], [a].[Type], [a].[Zip]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[DOB], [c].[FirstName], [c].[LastName], [c].[Title]
+    FROM [Contacts] AS [c]
+    WHERE [c].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [EmailAddresses] AS [e] ON [t].[Id] = [e].[ContactId]
+LEFT JOIN [Addresses] AS [a] ON [t].[Id] = [a].[ContactId]
+ORDER BY [t].[Id], [e].[Id]
+2023-03-22 10:35:22.522 -04:00 [INF] Executing PartialViewResult, running view _EditContact.
+2023-03-22 10:35:22.577 -04:00 [INF] Executed PartialViewResult - view _EditContact executed in 56.3186ms.
+2023-03-22 10:35:22.578 -04:00 [INF] Executed action ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter) in 354.2088ms
+2023-03-22 10:35:22.578 -04:00 [INF] Executed endpoint 'ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)'
+2023-03-22 10:35:22.578 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=930d4f10-9daf-4582-b4bb-cb9abfd382b3 application/json;+charset=utf-8 - - 200 - text/html;+charset=utf-8 366.6540ms
+2023-03-22 10:35:26.375 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=e23126c7-5c1d-485e-12f8-08db2a287b7d application/json;+charset=utf-8 -
+2023-03-22 10:35:26.375 -04:00 [INF] Executing endpoint 'ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)'
+2023-03-22 10:35:26.376 -04:00 [INF] Route matched with {action = "EditContact", controller = "Contacts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditContact(System.Guid) on controller ContactManager.Controllers.ContactsController (ContactManagerStarter).
+2023-03-22 10:35:26.383 -04:00 [INF] Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='600']
+SELECT [t].[Id], [t].[DOB], [t].[FirstName], [t].[LastName], [t].[Title], [e].[Id], [e].[ContactId], [e].[Email], [e].[IsPrimary], [e].[Type], [a].[Id], [a].[City], [a].[ContactId], [a].[State], [a].[Street1], [a].[Street2], [a].[Type], [a].[Zip]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[DOB], [c].[FirstName], [c].[LastName], [c].[Title]
+    FROM [Contacts] AS [c]
+    WHERE [c].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [EmailAddresses] AS [e] ON [t].[Id] = [e].[ContactId]
+LEFT JOIN [Addresses] AS [a] ON [t].[Id] = [a].[ContactId]
+ORDER BY [t].[Id], [e].[Id]
+2023-03-22 10:35:26.384 -04:00 [INF] Executing PartialViewResult, running view _EditContact.
+2023-03-22 10:35:26.385 -04:00 [INF] Executed PartialViewResult - view _EditContact executed in 1.3227ms.
+2023-03-22 10:35:26.385 -04:00 [INF] Executed action ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter) in 9.1802ms
+2023-03-22 10:35:26.385 -04:00 [INF] Executed endpoint 'ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)'
+2023-03-22 10:35:26.385 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=e23126c7-5c1d-485e-12f8-08db2a287b7d application/json;+charset=utf-8 - - 200 - text/html;+charset=utf-8 9.8326ms
+2023-03-22 10:35:33.604 -04:00 [INF] Executed endpoint '/contacthub'
+2023-03-22 10:35:33.604 -04:00 [INF] Request finished HTTP/2 CONNECT https://localhost:7276/contactHub?id=QtML60lN6wqLbqRZHZssKg - - - 200 - - 13169.4807ms
+2023-03-22 10:35:55.501 -04:00 [INF] Executed DbCommand (143ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+CREATE DATABASE [ContactManagerDbTEST];
+2023-03-22 10:35:55.555 -04:00 [INF] Executed DbCommand (42ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [ContactManagerDbTEST] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2023-03-22 10:35:55.576 -04:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+SELECT 1
+2023-03-22 10:35:55.673 -04:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2023-03-22 10:35:55.674 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+SELECT 1
+2023-03-22 10:35:55.688 -04:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-03-22 10:35:55.691 -04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-03-22 10:35:55.707 -04:00 [INF] Applying migration '20221212030042_seed'.
+2023-03-22 10:35:55.832 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+CREATE TABLE [Contacts] (
+    [Id] uniqueidentifier NOT NULL,
+    [Title] nvarchar(max) NOT NULL,
+    [FirstName] nvarchar(max) NOT NULL,
+    [LastName] nvarchar(max) NOT NULL,
+    [DOB] datetime2 NOT NULL,
+    CONSTRAINT [PK_Contacts] PRIMARY KEY ([Id])
+);
+2023-03-22 10:35:55.834 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+CREATE TABLE [Addresses] (
+    [Id] uniqueidentifier NOT NULL,
+    [Street1] nvarchar(max) NOT NULL,
+    [Street2] nvarchar(max) NOT NULL,
+    [City] nvarchar(max) NOT NULL,
+    [State] nvarchar(max) NOT NULL,
+    [Zip] int NOT NULL,
+    [Type] int NOT NULL,
+    [ContactId] uniqueidentifier NOT NULL,
+    CONSTRAINT [PK_Addresses] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Addresses_Contacts_ContactId] FOREIGN KEY ([ContactId]) REFERENCES [Contacts] ([Id]) ON DELETE CASCADE
+);
+2023-03-22 10:35:55.835 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+CREATE TABLE [EmailAddresses] (
+    [Id] uniqueidentifier NOT NULL,
+    [Email] nvarchar(max) NOT NULL,
+    [Type] int NOT NULL,
+    [ContactId] uniqueidentifier NOT NULL,
+    CONSTRAINT [PK_EmailAddresses] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_EmailAddresses_Contacts_ContactId] FOREIGN KEY ([ContactId]) REFERENCES [Contacts] ([Id]) ON DELETE CASCADE
+);
+2023-03-22 10:35:55.862 -04:00 [INF] Executed DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'DOB', N'FirstName', N'LastName', N'Title') AND [object_id] = OBJECT_ID(N'[Contacts]'))
+    SET IDENTITY_INSERT [Contacts] ON;
+INSERT INTO [Contacts] ([Id], [DOB], [FirstName], [LastName], [Title])
+VALUES ('930d4f10-9daf-4582-b4bb-cb9abfd382b3', '1960-05-01T00:00:00.0000000', N'Bill', N'Gates', N'Mr.'),
+('99580d68-9d2f-4552-862e-06b3204193f1', '1980-01-11T00:00:00.0000000', N'Sundar', N'Pichai', N'Mr.'),
+('b728f6ef-65d8-4da2-8e5f-0f67e3c3401c', '1950-09-21T00:00:00.0000000', N'Steve', N'Jobs', N'Mr.');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'DOB', N'FirstName', N'LastName', N'Title') AND [object_id] = OBJECT_ID(N'[Contacts]'))
+    SET IDENTITY_INSERT [Contacts] OFF;
+2023-03-22 10:35:55.874 -04:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'City', N'ContactId', N'State', N'Street1', N'Street2', N'Type', N'Zip') AND [object_id] = OBJECT_ID(N'[Addresses]'))
+    SET IDENTITY_INSERT [Addresses] ON;
+INSERT INTO [Addresses] ([Id], [City], [ContactId], [State], [Street1], [Street2], [Type], [Zip])
+VALUES ('1632295e-fc3c-49c5-b30f-d673fc816b73', N'Westbury', 'b728f6ef-65d8-4da2-8e5f-0f67e3c3401c', N'NY', N'245 Coral Place', N'Appt #3', 0, 11590),
+('7931505c-fca8-4a35-8d24-b32df341643d', N'Melvile', '99580d68-9d2f-4552-862e-06b3204193f1', N'NY', N'10 Main St', N'', 0, 11757),
+('a0762d8b-9dc6-4fa0-99dc-6f7438732760', N'Los Angles', 'b728f6ef-65d8-4da2-8e5f-0f67e3c3401c', N'CA', N'1 Apple Way', N'', 1, 11757),
+('b39467d9-a1f4-4843-aee9-7e9060448ded', N'Melvile', '930d4f10-9daf-4582-b4bb-cb9abfd382b3', N'NY', N'10 Main St', N'', 0, 11757);
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'City', N'ContactId', N'State', N'Street1', N'Street2', N'Type', N'Zip') AND [object_id] = OBJECT_ID(N'[Addresses]'))
+    SET IDENTITY_INSERT [Addresses] OFF;
+2023-03-22 10:35:55.881 -04:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'ContactId', N'Email', N'Type') AND [object_id] = OBJECT_ID(N'[EmailAddresses]'))
+    SET IDENTITY_INSERT [EmailAddresses] ON;
+INSERT INTO [EmailAddresses] ([Id], [ContactId], [Email], [Type])
+VALUES ('3a406f64-ad7b-4098-ab01-7e93aae2b851', 'b728f6ef-65d8-4da2-8e5f-0f67e3c3401c', N'SteveJobs@apple.com', 1),
+('3ddeb084-5e5d-4eca-b275-e4f6886e04dc', 'b728f6ef-65d8-4da2-8e5f-0f67e3c3401c', N'Steve@Jobs.com', 0),
+('5111f412-a7f4-4169-bb27-632687569ccd', '930d4f10-9daf-4582-b4bb-cb9abfd382b3', N'Bill@gates.com', 0),
+('d1a50413-20c0-4972-a351-8be24e1fc939', '99580d68-9d2f-4552-862e-06b3204193f1', N'SundarPichai@gmail.com', 1);
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'ContactId', N'Email', N'Type') AND [object_id] = OBJECT_ID(N'[EmailAddresses]'))
+    SET IDENTITY_INSERT [EmailAddresses] OFF;
+2023-03-22 10:35:55.883 -04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+CREATE INDEX [IX_Addresses_ContactId] ON [Addresses] ([ContactId]);
+2023-03-22 10:35:55.887 -04:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+CREATE INDEX [IX_EmailAddresses_ContactId] ON [EmailAddresses] ([ContactId]);
+2023-03-22 10:35:55.888 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20221212030042_seed', N'7.0.0');
+2023-03-22 10:35:55.894 -04:00 [INF] Applying migration '20230321181047_PrimaryEmail'.
+2023-03-22 10:35:55.944 -04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+ALTER TABLE [EmailAddresses] ADD [IsPrimary] bit NULL;
+2023-03-22 10:35:55.947 -04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+UPDATE [EmailAddresses] SET [IsPrimary] = CAST(1 AS bit)
+WHERE [Id] = '3a406f64-ad7b-4098-ab01-7e93aae2b851';
+SELECT @@ROWCOUNT;
+2023-03-22 10:35:55.947 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+UPDATE [EmailAddresses] SET [IsPrimary] = CAST(1 AS bit)
+WHERE [Id] = '3ddeb084-5e5d-4eca-b275-e4f6886e04dc';
+SELECT @@ROWCOUNT;
+2023-03-22 10:35:55.948 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+UPDATE [EmailAddresses] SET [IsPrimary] = CAST(1 AS bit)
+WHERE [Id] = '5111f412-a7f4-4169-bb27-632687569ccd';
+SELECT @@ROWCOUNT;
+2023-03-22 10:35:55.948 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+UPDATE [EmailAddresses] SET [IsPrimary] = CAST(1 AS bit)
+WHERE [Id] = 'd1a50413-20c0-4972-a351-8be24e1fc939';
+SELECT @@ROWCOUNT;
+2023-03-22 10:35:55.949 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230321181047_PrimaryEmail', N'7.0.0');
+2023-03-22 10:35:56.055 -04:00 [INF] User profile is available. Using 'C:\Users\notjo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-22 10:35:56.278 -04:00 [INF] Now listening on: https://localhost:7276
+2023-03-22 10:35:56.278 -04:00 [INF] Now listening on: http://localhost:5276
+2023-03-22 10:35:56.280 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-22 10:35:56.281 -04:00 [INF] Hosting environment: Development
+2023-03-22 10:35:56.281 -04:00 [INF] Content root path: O:\TestRepoSAB\ContactManagerStarter
+2023-03-22 10:35:56.921 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/ - -
+2023-03-22 10:35:57.003 -04:00 [INF] Executing endpoint 'ContactManagerStarter.Controllers.HomeController.Index (ContactManagerStarter)'
+2023-03-22 10:35:57.013 -04:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ContactManagerStarter.Controllers.HomeController (ContactManagerStarter).
+2023-03-22 10:35:57.024 -04:00 [INF] Executing ViewResult, running view Index.
+2023-03-22 10:35:57.176 -04:00 [INF] Executed ViewResult - view Index executed in 155.6951ms.
+2023-03-22 10:35:57.180 -04:00 [INF] Executed action ContactManagerStarter.Controllers.HomeController.Index (ContactManagerStarter) in 166.02ms
+2023-03-22 10:35:57.180 -04:00 [INF] Executed endpoint 'ContactManagerStarter.Controllers.HomeController.Index (ContactManagerStarter)'
+2023-03-22 10:35:57.216 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/ - - - 200 - text/html;+charset=utf-8 300.4857ms
+2023-03-22 10:35:57.235 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/lib/bootstrap/dist/js/bootstrap.bundle.js - -
+2023-03-22 10:35:57.235 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/css/site.css - -
+2023-03-22 10:35:57.235 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/css/themify-icons.css - -
+2023-03-22 10:35:57.235 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/lib/jquery/dist/jquery.js - -
+2023-03-22 10:35:57.235 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/lib/bootstrap/dist/css/bootstrap.css - -
+2023-03-22 10:35:57.235 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/lib/signalr/dist/browser/signalr.js - -
+2023-03-22 10:35:57.249 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-03-22 10:35:57.257 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - -
+2023-03-22 10:35:57.264 -04:00 [INF] The file /css/themify-icons.css was not modified
+2023-03-22 10:35:57.264 -04:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.css was not modified
+2023-03-22 10:35:57.264 -04:00 [INF] The file /css/site.css was not modified
+2023-03-22 10:35:57.264 -04:00 [INF] The file /js/site.js was not modified
+2023-03-22 10:35:57.264 -04:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.js was not modified
+2023-03-22 10:35:57.264 -04:00 [INF] The file /lib/signalr/dist/browser/signalr.js was not modified
+2023-03-22 10:35:57.264 -04:00 [INF] The file /lib/jquery/dist/jquery.js was not modified
+2023-03-22 10:35:57.265 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 304 - text/javascript 16.3535ms
+2023-03-22 10:35:57.265 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/lib/jquery/dist/jquery.js - - - 304 - text/javascript 30.3237ms
+2023-03-22 10:35:57.265 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/lib/bootstrap/dist/css/bootstrap.css - - - 304 - text/css 30.1212ms
+2023-03-22 10:35:57.265 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/lib/bootstrap/dist/js/bootstrap.bundle.js - - - 304 - text/javascript 30.3193ms
+2023-03-22 10:35:57.266 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/css/site.css - - - 304 - text/css 30.3139ms
+2023-03-22 10:35:57.265 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/lib/signalr/dist/browser/signalr.js - - - 304 - text/javascript 29.8611ms
+2023-03-22 10:35:57.265 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/css/themify-icons.css - - - 304 - text/css 30.3101ms
+2023-03-22 10:35:57.273 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 17.4857ms
+2023-03-22 10:35:57.340 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/_vs/browserLink - -
+2023-03-22 10:35:57.399 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 59.0169ms
+2023-03-22 10:35:58.892 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts - -
+2023-03-22 10:35:58.896 -04:00 [INF] Executing endpoint 'ContactManager.Controllers.ContactsController.Index (ContactManagerStarter)'
+2023-03-22 10:35:58.898 -04:00 [INF] Route matched with {action = "Index", controller = "Contacts"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ContactManager.Controllers.ContactsController (ContactManagerStarter).
+2023-03-22 10:35:58.922 -04:00 [INF] [Logger] 3/22/2023 10:35:58 AM: Reached Index
+2023-03-22 10:35:58.924 -04:00 [INF] Executing ViewResult, running view Index.
+2023-03-22 10:35:58.936 -04:00 [INF] Executed ViewResult - view Index executed in 13.4787ms.
+2023-03-22 10:35:58.936 -04:00 [INF] Executed action ContactManager.Controllers.ContactsController.Index (ContactManagerStarter) in 38.6943ms
+2023-03-22 10:35:58.936 -04:00 [INF] Executed endpoint 'ContactManager.Controllers.ContactsController.Index (ContactManagerStarter)'
+2023-03-22 10:35:58.940 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts - - - 200 - text/html;+charset=utf-8 47.9727ms
+2023-03-22 10:35:58.956 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/js/ContactTable.js - -
+2023-03-22 10:35:58.956 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/_vs/browserLink - -
+2023-03-22 10:35:58.958 -04:00 [INF] The file /js/ContactTable.js was not modified
+2023-03-22 10:35:58.958 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/js/ContactTable.js - - - 304 - text/javascript 2.1540ms
+2023-03-22 10:35:58.961 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - -
+2023-03-22 10:35:58.962 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 1.5591ms
+2023-03-22 10:35:58.994 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 38.3123ms
+2023-03-22 10:35:59.046 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts/GetContacts application/json;+charset=utf-8 -
+2023-03-22 10:35:59.049 -04:00 [INF] Request starting HTTP/2 POST https://localhost:7276/contactHub/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0
+2023-03-22 10:35:59.055 -04:00 [INF] Executing endpoint 'ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter)'
+2023-03-22 10:35:59.055 -04:00 [INF] Executing endpoint '/contacthub/negotiate'
+2023-03-22 10:35:59.064 -04:00 [INF] Route matched with {action = "GetContacts", controller = "Contacts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetContacts() on controller ContactManager.Controllers.ContactsController (ContactManagerStarter).
+2023-03-22 10:35:59.085 -04:00 [INF] Executed endpoint '/contacthub/negotiate'
+2023-03-22 10:35:59.085 -04:00 [INF] Request finished HTTP/2 POST https://localhost:7276/contactHub/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 - 200 316 application/json 36.4506ms
+2023-03-22 10:35:59.095 -04:00 [INF] Request starting HTTP/2 CONNECT https://localhost:7276/contactHub?id=0pfxN6PI7oyyT-9aaF_ffg - -
+2023-03-22 10:35:59.096 -04:00 [INF] Executing endpoint '/contacthub'
+2023-03-22 10:35:59.384 -04:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+SELECT [c].[Id], [c].[DOB], [c].[FirstName], [c].[LastName], [c].[Title]
+FROM [Contacts] AS [c]
+ORDER BY [c].[FirstName]
+2023-03-22 10:35:59.445 -04:00 [INF] Executing PartialViewResult, running view _ContactTable.
+2023-03-22 10:35:59.515 -04:00 [INF] Executed PartialViewResult - view _ContactTable executed in 70.9684ms.
+2023-03-22 10:35:59.515 -04:00 [INF] Executed action ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter) in 450.3324ms
+2023-03-22 10:35:59.515 -04:00 [INF] Executed endpoint 'ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter)'
+2023-03-22 10:35:59.518 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts/GetContacts application/json;+charset=utf-8 - - 200 - text/html;+charset=utf-8 472.0138ms
+2023-03-22 10:36:00.610 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=930d4f10-9daf-4582-b4bb-cb9abfd382b3 application/json;+charset=utf-8 -
+2023-03-22 10:36:00.611 -04:00 [INF] Executing endpoint 'ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)'
+2023-03-22 10:36:00.622 -04:00 [INF] Route matched with {action = "EditContact", controller = "Contacts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditContact(System.Guid) on controller ContactManager.Controllers.ContactsController (ContactManagerStarter).
+2023-03-22 10:36:00.784 -04:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2023-03-22 10:36:00.823 -04:00 [INF] Executed DbCommand (21ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='600']
+SELECT [t].[Id], [t].[DOB], [t].[FirstName], [t].[LastName], [t].[Title], [e].[Id], [e].[ContactId], [e].[Email], [e].[IsPrimary], [e].[Type], [a].[Id], [a].[City], [a].[ContactId], [a].[State], [a].[Street1], [a].[Street2], [a].[Type], [a].[Zip]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[DOB], [c].[FirstName], [c].[LastName], [c].[Title]
+    FROM [Contacts] AS [c]
+    WHERE [c].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [EmailAddresses] AS [e] ON [t].[Id] = [e].[ContactId]
+LEFT JOIN [Addresses] AS [a] ON [t].[Id] = [a].[ContactId]
+ORDER BY [t].[Id], [e].[Id]
+2023-03-22 10:36:00.867 -04:00 [INF] Executing PartialViewResult, running view _EditContact.
+2023-03-22 10:36:00.929 -04:00 [INF] Executed PartialViewResult - view _EditContact executed in 61.7667ms.
+2023-03-22 10:36:00.929 -04:00 [INF] Executed action ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter) in 307.0311ms
+2023-03-22 10:36:00.929 -04:00 [INF] Executed endpoint 'ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)'
+2023-03-22 10:36:00.930 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=930d4f10-9daf-4582-b4bb-cb9abfd382b3 application/json;+charset=utf-8 - - 200 - text/html;+charset=utf-8 319.6990ms
+2023-03-22 10:36:02.967 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=b728f6ef-65d8-4da2-8e5f-0f67e3c3401c application/json;+charset=utf-8 -
+2023-03-22 10:36:02.967 -04:00 [INF] Executing endpoint 'ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)'
+2023-03-22 10:36:02.967 -04:00 [INF] Route matched with {action = "EditContact", controller = "Contacts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditContact(System.Guid) on controller ContactManager.Controllers.ContactsController (ContactManagerStarter).
+2023-03-22 10:36:02.974 -04:00 [INF] Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='600']
+SELECT [t].[Id], [t].[DOB], [t].[FirstName], [t].[LastName], [t].[Title], [e].[Id], [e].[ContactId], [e].[Email], [e].[IsPrimary], [e].[Type], [a].[Id], [a].[City], [a].[ContactId], [a].[State], [a].[Street1], [a].[Street2], [a].[Type], [a].[Zip]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[DOB], [c].[FirstName], [c].[LastName], [c].[Title]
+    FROM [Contacts] AS [c]
+    WHERE [c].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [EmailAddresses] AS [e] ON [t].[Id] = [e].[ContactId]
+LEFT JOIN [Addresses] AS [a] ON [t].[Id] = [a].[ContactId]
+ORDER BY [t].[Id], [e].[Id]
+2023-03-22 10:36:02.975 -04:00 [INF] Executing PartialViewResult, running view _EditContact.
+2023-03-22 10:36:02.976 -04:00 [INF] Executed PartialViewResult - view _EditContact executed in 1.3131ms.
+2023-03-22 10:36:02.976 -04:00 [INF] Executed action ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter) in 8.8466ms
+2023-03-22 10:36:02.976 -04:00 [INF] Executed endpoint 'ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)'
+2023-03-22 10:36:02.976 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=b728f6ef-65d8-4da2-8e5f-0f67e3c3401c application/json;+charset=utf-8 - - 200 - text/html;+charset=utf-8 9.4955ms
+2023-03-22 10:36:05.888 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=99580d68-9d2f-4552-862e-06b3204193f1 application/json;+charset=utf-8 -
+2023-03-22 10:36:05.888 -04:00 [INF] Executing endpoint 'ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)'
+2023-03-22 10:36:05.888 -04:00 [INF] Route matched with {action = "EditContact", controller = "Contacts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditContact(System.Guid) on controller ContactManager.Controllers.ContactsController (ContactManagerStarter).
+2023-03-22 10:36:05.891 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='600']
+SELECT [t].[Id], [t].[DOB], [t].[FirstName], [t].[LastName], [t].[Title], [e].[Id], [e].[ContactId], [e].[Email], [e].[IsPrimary], [e].[Type], [a].[Id], [a].[City], [a].[ContactId], [a].[State], [a].[Street1], [a].[Street2], [a].[Type], [a].[Zip]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[DOB], [c].[FirstName], [c].[LastName], [c].[Title]
+    FROM [Contacts] AS [c]
+    WHERE [c].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [EmailAddresses] AS [e] ON [t].[Id] = [e].[ContactId]
+LEFT JOIN [Addresses] AS [a] ON [t].[Id] = [a].[ContactId]
+ORDER BY [t].[Id], [e].[Id]
+2023-03-22 10:36:05.892 -04:00 [INF] Executing PartialViewResult, running view _EditContact.
+2023-03-22 10:36:05.893 -04:00 [INF] Executed PartialViewResult - view _EditContact executed in 0.8996ms.
+2023-03-22 10:36:05.893 -04:00 [INF] Executed action ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter) in 5.2294ms
+2023-03-22 10:36:05.893 -04:00 [INF] Executed endpoint 'ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)'
+2023-03-22 10:36:05.894 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=99580d68-9d2f-4552-862e-06b3204193f1 application/json;+charset=utf-8 - - 200 - text/html;+charset=utf-8 5.6553ms
+2023-03-22 10:36:07.920 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=b728f6ef-65d8-4da2-8e5f-0f67e3c3401c application/json;+charset=utf-8 -
+2023-03-22 10:36:07.920 -04:00 [INF] Executing endpoint 'ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)'
+2023-03-22 10:36:07.920 -04:00 [INF] Route matched with {action = "EditContact", controller = "Contacts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditContact(System.Guid) on controller ContactManager.Controllers.ContactsController (ContactManagerStarter).
+2023-03-22 10:36:07.922 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='600']
+SELECT [t].[Id], [t].[DOB], [t].[FirstName], [t].[LastName], [t].[Title], [e].[Id], [e].[ContactId], [e].[Email], [e].[IsPrimary], [e].[Type], [a].[Id], [a].[City], [a].[ContactId], [a].[State], [a].[Street1], [a].[Street2], [a].[Type], [a].[Zip]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[DOB], [c].[FirstName], [c].[LastName], [c].[Title]
+    FROM [Contacts] AS [c]
+    WHERE [c].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [EmailAddresses] AS [e] ON [t].[Id] = [e].[ContactId]
+LEFT JOIN [Addresses] AS [a] ON [t].[Id] = [a].[ContactId]
+ORDER BY [t].[Id], [e].[Id]
+2023-03-22 10:36:07.924 -04:00 [INF] Executing PartialViewResult, running view _EditContact.
+2023-03-22 10:36:07.925 -04:00 [INF] Executed PartialViewResult - view _EditContact executed in 0.9675ms.
+2023-03-22 10:36:07.925 -04:00 [INF] Executed action ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter) in 5.1757ms
+2023-03-22 10:36:07.925 -04:00 [INF] Executed endpoint 'ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)'
+2023-03-22 10:36:07.926 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=b728f6ef-65d8-4da2-8e5f-0f67e3c3401c application/json;+charset=utf-8 - - 200 - text/html;+charset=utf-8 5.5889ms
+2023-03-22 10:38:58.530 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=b728f6ef-65d8-4da2-8e5f-0f67e3c3401c application/json;+charset=utf-8 -
+2023-03-22 10:38:58.530 -04:00 [INF] Executing endpoint 'ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)'
+2023-03-22 10:38:58.530 -04:00 [INF] Route matched with {action = "EditContact", controller = "Contacts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditContact(System.Guid) on controller ContactManager.Controllers.ContactsController (ContactManagerStarter).
+2023-03-22 10:38:58.533 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='600']
+SELECT [t].[Id], [t].[DOB], [t].[FirstName], [t].[LastName], [t].[Title], [e].[Id], [e].[ContactId], [e].[Email], [e].[IsPrimary], [e].[Type], [a].[Id], [a].[City], [a].[ContactId], [a].[State], [a].[Street1], [a].[Street2], [a].[Type], [a].[Zip]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[DOB], [c].[FirstName], [c].[LastName], [c].[Title]
+    FROM [Contacts] AS [c]
+    WHERE [c].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [EmailAddresses] AS [e] ON [t].[Id] = [e].[ContactId]
+LEFT JOIN [Addresses] AS [a] ON [t].[Id] = [a].[ContactId]
+ORDER BY [t].[Id], [e].[Id]
+2023-03-22 10:40:06.491 -04:00 [INF] Executed DbCommand (115ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+CREATE DATABASE [ContactManagerDbJB];
+2023-03-22 10:40:06.554 -04:00 [INF] Executed DbCommand (50ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [ContactManagerDbJB] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2023-03-22 10:40:06.582 -04:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+SELECT 1
+2023-03-22 10:40:06.658 -04:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2023-03-22 10:40:06.659 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+SELECT 1
+2023-03-22 10:40:06.682 -04:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-03-22 10:40:06.687 -04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-03-22 10:40:06.704 -04:00 [INF] Applying migration '20221212030042_seed'.
+2023-03-22 10:40:06.795 -04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+CREATE TABLE [Contacts] (
+    [Id] uniqueidentifier NOT NULL,
+    [Title] nvarchar(max) NOT NULL,
+    [FirstName] nvarchar(max) NOT NULL,
+    [LastName] nvarchar(max) NOT NULL,
+    [DOB] datetime2 NOT NULL,
+    CONSTRAINT [PK_Contacts] PRIMARY KEY ([Id])
+);
+2023-03-22 10:40:06.797 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+CREATE TABLE [Addresses] (
+    [Id] uniqueidentifier NOT NULL,
+    [Street1] nvarchar(max) NOT NULL,
+    [Street2] nvarchar(max) NOT NULL,
+    [City] nvarchar(max) NOT NULL,
+    [State] nvarchar(max) NOT NULL,
+    [Zip] int NOT NULL,
+    [Type] int NOT NULL,
+    [ContactId] uniqueidentifier NOT NULL,
+    CONSTRAINT [PK_Addresses] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Addresses_Contacts_ContactId] FOREIGN KEY ([ContactId]) REFERENCES [Contacts] ([Id]) ON DELETE CASCADE
+);
+2023-03-22 10:40:06.798 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+CREATE TABLE [EmailAddresses] (
+    [Id] uniqueidentifier NOT NULL,
+    [Email] nvarchar(max) NOT NULL,
+    [Type] int NOT NULL,
+    [ContactId] uniqueidentifier NOT NULL,
+    CONSTRAINT [PK_EmailAddresses] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_EmailAddresses_Contacts_ContactId] FOREIGN KEY ([ContactId]) REFERENCES [Contacts] ([Id]) ON DELETE CASCADE
+);
+2023-03-22 10:40:06.816 -04:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'DOB', N'FirstName', N'LastName', N'Title') AND [object_id] = OBJECT_ID(N'[Contacts]'))
+    SET IDENTITY_INSERT [Contacts] ON;
+INSERT INTO [Contacts] ([Id], [DOB], [FirstName], [LastName], [Title])
+VALUES ('930d4f10-9daf-4582-b4bb-cb9abfd382b3', '1960-05-01T00:00:00.0000000', N'Bill', N'Gates', N'Mr.'),
+('99580d68-9d2f-4552-862e-06b3204193f1', '1980-01-11T00:00:00.0000000', N'Sundar', N'Pichai', N'Mr.'),
+('b728f6ef-65d8-4da2-8e5f-0f67e3c3401c', '1950-09-21T00:00:00.0000000', N'Steve', N'Jobs', N'Mr.');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'DOB', N'FirstName', N'LastName', N'Title') AND [object_id] = OBJECT_ID(N'[Contacts]'))
+    SET IDENTITY_INSERT [Contacts] OFF;
+2023-03-22 10:40:06.824 -04:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'City', N'ContactId', N'State', N'Street1', N'Street2', N'Type', N'Zip') AND [object_id] = OBJECT_ID(N'[Addresses]'))
+    SET IDENTITY_INSERT [Addresses] ON;
+INSERT INTO [Addresses] ([Id], [City], [ContactId], [State], [Street1], [Street2], [Type], [Zip])
+VALUES ('1632295e-fc3c-49c5-b30f-d673fc816b73', N'Westbury', 'b728f6ef-65d8-4da2-8e5f-0f67e3c3401c', N'NY', N'245 Coral Place', N'Appt #3', 0, 11590),
+('7931505c-fca8-4a35-8d24-b32df341643d', N'Melvile', '99580d68-9d2f-4552-862e-06b3204193f1', N'NY', N'10 Main St', N'', 0, 11757),
+('a0762d8b-9dc6-4fa0-99dc-6f7438732760', N'Los Angles', 'b728f6ef-65d8-4da2-8e5f-0f67e3c3401c', N'CA', N'1 Apple Way', N'', 1, 11757),
+('b39467d9-a1f4-4843-aee9-7e9060448ded', N'Melvile', '930d4f10-9daf-4582-b4bb-cb9abfd382b3', N'NY', N'10 Main St', N'', 0, 11757);
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'City', N'ContactId', N'State', N'Street1', N'Street2', N'Type', N'Zip') AND [object_id] = OBJECT_ID(N'[Addresses]'))
+    SET IDENTITY_INSERT [Addresses] OFF;
+2023-03-22 10:40:06.835 -04:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'ContactId', N'Email', N'Type') AND [object_id] = OBJECT_ID(N'[EmailAddresses]'))
+    SET IDENTITY_INSERT [EmailAddresses] ON;
+INSERT INTO [EmailAddresses] ([Id], [ContactId], [Email], [Type])
+VALUES ('3a406f64-ad7b-4098-ab01-7e93aae2b851', 'b728f6ef-65d8-4da2-8e5f-0f67e3c3401c', N'SteveJobs@apple.com', 1),
+('3ddeb084-5e5d-4eca-b275-e4f6886e04dc', 'b728f6ef-65d8-4da2-8e5f-0f67e3c3401c', N'Steve@Jobs.com', 0),
+('5111f412-a7f4-4169-bb27-632687569ccd', '930d4f10-9daf-4582-b4bb-cb9abfd382b3', N'Bill@gates.com', 0),
+('d1a50413-20c0-4972-a351-8be24e1fc939', '99580d68-9d2f-4552-862e-06b3204193f1', N'SundarPichai@gmail.com', 1);
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'ContactId', N'Email', N'Type') AND [object_id] = OBJECT_ID(N'[EmailAddresses]'))
+    SET IDENTITY_INSERT [EmailAddresses] OFF;
+2023-03-22 10:40:06.837 -04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+CREATE INDEX [IX_Addresses_ContactId] ON [Addresses] ([ContactId]);
+2023-03-22 10:40:06.840 -04:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+CREATE INDEX [IX_EmailAddresses_ContactId] ON [EmailAddresses] ([ContactId]);
+2023-03-22 10:40:06.841 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20221212030042_seed', N'7.0.0');
+2023-03-22 10:40:06.847 -04:00 [INF] Applying migration '20230321181047_PrimaryEmail'.
+2023-03-22 10:40:06.921 -04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+ALTER TABLE [EmailAddresses] ADD [IsPrimary] bit NULL;
+2023-03-22 10:40:06.924 -04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+UPDATE [EmailAddresses] SET [IsPrimary] = CAST(1 AS bit)
+WHERE [Id] = '3a406f64-ad7b-4098-ab01-7e93aae2b851';
+SELECT @@ROWCOUNT;
+2023-03-22 10:40:06.924 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+UPDATE [EmailAddresses] SET [IsPrimary] = CAST(1 AS bit)
+WHERE [Id] = '3ddeb084-5e5d-4eca-b275-e4f6886e04dc';
+SELECT @@ROWCOUNT;
+2023-03-22 10:40:06.925 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+UPDATE [EmailAddresses] SET [IsPrimary] = CAST(1 AS bit)
+WHERE [Id] = '5111f412-a7f4-4169-bb27-632687569ccd';
+SELECT @@ROWCOUNT;
+2023-03-22 10:40:06.925 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+UPDATE [EmailAddresses] SET [IsPrimary] = CAST(1 AS bit)
+WHERE [Id] = 'd1a50413-20c0-4972-a351-8be24e1fc939';
+SELECT @@ROWCOUNT;
+2023-03-22 10:40:06.925 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230321181047_PrimaryEmail', N'7.0.0');
+2023-03-22 10:40:07.043 -04:00 [INF] User profile is available. Using 'C:\Users\notjo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-22 10:40:07.274 -04:00 [INF] Now listening on: https://localhost:7276
+2023-03-22 10:40:07.274 -04:00 [INF] Now listening on: http://localhost:5276
+2023-03-22 10:40:07.276 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-22 10:40:07.276 -04:00 [INF] Hosting environment: Development
+2023-03-22 10:40:07.276 -04:00 [INF] Content root path: O:\TestRepoSAB\ContactManagerStarter
+2023-03-22 10:40:07.790 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/ - -
+2023-03-22 10:40:07.851 -04:00 [INF] Executing endpoint 'ContactManagerStarter.Controllers.HomeController.Index (ContactManagerStarter)'
+2023-03-22 10:40:07.861 -04:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ContactManagerStarter.Controllers.HomeController (ContactManagerStarter).
+2023-03-22 10:40:07.873 -04:00 [INF] Executing ViewResult, running view Index.
+2023-03-22 10:40:08.014 -04:00 [INF] Executed ViewResult - view Index executed in 144.5432ms.
+2023-03-22 10:40:08.017 -04:00 [INF] Executed action ContactManagerStarter.Controllers.HomeController.Index (ContactManagerStarter) in 155.2395ms
+2023-03-22 10:40:08.018 -04:00 [INF] Executed endpoint 'ContactManagerStarter.Controllers.HomeController.Index (ContactManagerStarter)'
+2023-03-22 10:40:08.042 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/ - - - 200 - text/html;+charset=utf-8 255.2943ms
+2023-03-22 10:40:08.088 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - -
+2023-03-22 10:40:08.088 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/css/themify-icons.css - -
+2023-03-22 10:40:08.088 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/lib/bootstrap/dist/css/bootstrap.css - -
+2023-03-22 10:40:08.088 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/css/site.css - -
+2023-03-22 10:40:08.089 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/lib/jquery/dist/jquery.js - -
+2023-03-22 10:40:08.097 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/lib/bootstrap/dist/js/bootstrap.bundle.js - -
+2023-03-22 10:40:08.105 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/lib/signalr/dist/browser/signalr.js - -
+2023-03-22 10:40:08.115 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-03-22 10:40:08.126 -04:00 [INF] The file /css/themify-icons.css was not modified
+2023-03-22 10:40:08.126 -04:00 [INF] The file /css/site.css was not modified
+2023-03-22 10:40:08.126 -04:00 [INF] The file /lib/signalr/dist/browser/signalr.js was not modified
+2023-03-22 10:40:08.126 -04:00 [INF] The file /lib/jquery/dist/jquery.js was not modified
+2023-03-22 10:40:08.126 -04:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.css was not modified
+2023-03-22 10:40:08.126 -04:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.js was not modified
+2023-03-22 10:40:08.126 -04:00 [INF] The file /js/site.js was not modified
+2023-03-22 10:40:08.127 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/lib/jquery/dist/jquery.js - - - 304 - text/javascript 38.5340ms
+2023-03-22 10:40:08.127 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/css/site.css - - - 304 - text/css 39.0348ms
+2023-03-22 10:40:08.127 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/lib/bootstrap/dist/js/bootstrap.bundle.js - - - 304 - text/javascript 30.8150ms
+2023-03-22 10:40:08.127 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/lib/bootstrap/dist/css/bootstrap.css - - - 304 - text/css 39.0562ms
+2023-03-22 10:40:08.127 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 304 - text/javascript 12.2393ms
+2023-03-22 10:40:08.127 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/lib/signalr/dist/browser/signalr.js - - - 304 - text/javascript 22.8816ms
+2023-03-22 10:40:08.129 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/css/themify-icons.css - - - 304 - text/css 40.3073ms
+2023-03-22 10:40:08.137 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 48.8955ms
+2023-03-22 10:40:08.203 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/_vs/browserLink - -
+2023-03-22 10:40:08.254 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 51.3920ms
+2023-03-22 10:40:09.298 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts - -
+2023-03-22 10:40:09.310 -04:00 [INF] Executing endpoint 'ContactManager.Controllers.ContactsController.Index (ContactManagerStarter)'
+2023-03-22 10:40:09.313 -04:00 [INF] Route matched with {action = "Index", controller = "Contacts"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ContactManager.Controllers.ContactsController (ContactManagerStarter).
+2023-03-22 10:40:09.364 -04:00 [INF] [Logger] 3/22/2023 10:40:09 AM: Reached Index
+2023-03-22 10:40:09.365 -04:00 [INF] Executing ViewResult, running view Index.
+2023-03-22 10:40:09.381 -04:00 [INF] Executed ViewResult - view Index executed in 17.0222ms.
+2023-03-22 10:40:09.382 -04:00 [INF] Executed action ContactManager.Controllers.ContactsController.Index (ContactManagerStarter) in 68.9631ms
+2023-03-22 10:40:09.382 -04:00 [INF] Executed endpoint 'ContactManager.Controllers.ContactsController.Index (ContactManagerStarter)'
+2023-03-22 10:40:09.386 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts - - - 200 - text/html;+charset=utf-8 88.2990ms
+2023-03-22 10:40:09.404 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - -
+2023-03-22 10:40:09.409 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/js/ContactTable.js - -
+2023-03-22 10:40:09.411 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/_vs/browserLink - -
+2023-03-22 10:40:09.411 -04:00 [INF] The file /js/ContactTable.js was not modified
+2023-03-22 10:40:09.411 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/js/ContactTable.js - - - 304 - text/javascript 1.7440ms
+2023-03-22 10:40:09.411 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 5.7115ms
+2023-03-22 10:40:09.453 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 42.2390ms
+2023-03-22 10:40:09.505 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts/GetContacts application/json;+charset=utf-8 -
+2023-03-22 10:40:09.509 -04:00 [INF] Request starting HTTP/2 POST https://localhost:7276/contactHub/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0
+2023-03-22 10:40:09.517 -04:00 [INF] Executing endpoint 'ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter)'
+2023-03-22 10:40:09.517 -04:00 [INF] Executing endpoint '/contacthub/negotiate'
+2023-03-22 10:40:09.526 -04:00 [INF] Route matched with {action = "GetContacts", controller = "Contacts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetContacts() on controller ContactManager.Controllers.ContactsController (ContactManagerStarter).
+2023-03-22 10:40:09.539 -04:00 [INF] Executed endpoint '/contacthub/negotiate'
+2023-03-22 10:40:09.540 -04:00 [INF] Request finished HTTP/2 POST https://localhost:7276/contactHub/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 - 200 316 application/json 31.0871ms
+2023-03-22 10:40:09.556 -04:00 [INF] Request starting HTTP/2 CONNECT https://localhost:7276/contactHub?id=DBU_s4F6iyslZbcmvB2ivw - -
+2023-03-22 10:40:09.559 -04:00 [INF] Executing endpoint '/contacthub'
+2023-03-22 10:40:09.915 -04:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+SELECT [c].[Id], [c].[DOB], [c].[FirstName], [c].[LastName], [c].[Title]
+FROM [Contacts] AS [c]
+ORDER BY [c].[FirstName]
+2023-03-22 10:40:09.972 -04:00 [INF] Executing PartialViewResult, running view _ContactTable.
+2023-03-22 10:40:10.117 -04:00 [INF] Executed PartialViewResult - view _ContactTable executed in 145.869ms.
+2023-03-22 10:40:10.117 -04:00 [INF] Executed action ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter) in 591.2384ms
+2023-03-22 10:40:10.117 -04:00 [INF] Executed endpoint 'ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter)'
+2023-03-22 10:40:10.120 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts/GetContacts application/json;+charset=utf-8 - - 200 - text/html;+charset=utf-8 615.5620ms
+2023-03-22 10:40:10.823 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=930d4f10-9daf-4582-b4bb-cb9abfd382b3 application/json;+charset=utf-8 -
+2023-03-22 10:40:10.825 -04:00 [INF] Executing endpoint 'ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)'
+2023-03-22 10:40:10.835 -04:00 [INF] Route matched with {action = "EditContact", controller = "Contacts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditContact(System.Guid) on controller ContactManager.Controllers.ContactsController (ContactManagerStarter).
+2023-03-22 10:40:10.998 -04:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2023-03-22 10:40:11.047 -04:00 [INF] Executed DbCommand (28ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='600']
+SELECT [t].[Id], [t].[DOB], [t].[FirstName], [t].[LastName], [t].[Title], [e].[Id], [e].[ContactId], [e].[Email], [e].[IsPrimary], [e].[Type], [a].[Id], [a].[City], [a].[ContactId], [a].[State], [a].[Street1], [a].[Street2], [a].[Type], [a].[Zip]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[DOB], [c].[FirstName], [c].[LastName], [c].[Title]
+    FROM [Contacts] AS [c]
+    WHERE [c].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [EmailAddresses] AS [e] ON [t].[Id] = [e].[ContactId]
+LEFT JOIN [Addresses] AS [a] ON [t].[Id] = [a].[ContactId]
+ORDER BY [t].[Id], [e].[Id]
+2023-03-22 10:40:19.489 -04:00 [INF] [Logger] 3/22/2023 10:40:19 AM: No primary email found, setting
+2023-03-22 10:40:19.490 -04:00 [INF] Executing PartialViewResult, running view _EditContact.
+2023-03-22 10:40:19.553 -04:00 [INF] Executed PartialViewResult - view _EditContact executed in 63.3105ms.
+2023-03-22 10:40:19.553 -04:00 [INF] Executed action ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter) in 8718.1593ms
+2023-03-22 10:40:19.553 -04:00 [INF] Executed endpoint 'ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)'
+2023-03-22 10:40:19.554 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=930d4f10-9daf-4582-b4bb-cb9abfd382b3 application/json;+charset=utf-8 - - 200 - text/html;+charset=utf-8 8730.7267ms
+2023-03-22 10:40:22.471 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=b728f6ef-65d8-4da2-8e5f-0f67e3c3401c application/json;+charset=utf-8 -
+2023-03-22 10:40:22.471 -04:00 [INF] Executing endpoint 'ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)'
+2023-03-22 10:40:22.471 -04:00 [INF] Route matched with {action = "EditContact", controller = "Contacts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditContact(System.Guid) on controller ContactManager.Controllers.ContactsController (ContactManagerStarter).
+2023-03-22 10:40:22.478 -04:00 [INF] Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='600']
+SELECT [t].[Id], [t].[DOB], [t].[FirstName], [t].[LastName], [t].[Title], [e].[Id], [e].[ContactId], [e].[Email], [e].[IsPrimary], [e].[Type], [a].[Id], [a].[City], [a].[ContactId], [a].[State], [a].[Street1], [a].[Street2], [a].[Type], [a].[Zip]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[DOB], [c].[FirstName], [c].[LastName], [c].[Title]
+    FROM [Contacts] AS [c]
+    WHERE [c].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [EmailAddresses] AS [e] ON [t].[Id] = [e].[ContactId]
+LEFT JOIN [Addresses] AS [a] ON [t].[Id] = [a].[ContactId]
+ORDER BY [t].[Id], [e].[Id]
+2023-03-22 10:40:23.651 -04:00 [INF] [Logger] 3/22/2023 10:40:23 AM: No primary email found, setting
+2023-03-22 10:40:23.651 -04:00 [INF] Executing PartialViewResult, running view _EditContact.
+2023-03-22 10:40:23.653 -04:00 [INF] Executed PartialViewResult - view _EditContact executed in 1.9857ms.
+2023-03-22 10:40:23.653 -04:00 [INF] Executed action ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter) in 1181.6787ms
+2023-03-22 10:40:23.653 -04:00 [INF] Executed endpoint 'ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)'
+2023-03-22 10:40:23.653 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=b728f6ef-65d8-4da2-8e5f-0f67e3c3401c application/json;+charset=utf-8 - - 200 - text/html;+charset=utf-8 1182.2549ms
+2023-03-22 10:40:37.932 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts - -
+2023-03-22 10:40:37.934 -04:00 [INF] Executing endpoint 'ContactManager.Controllers.ContactsController.Index (ContactManagerStarter)'
+2023-03-22 10:40:37.936 -04:00 [INF] Route matched with {action = "Index", controller = "Contacts"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ContactManager.Controllers.ContactsController (ContactManagerStarter).
+2023-03-22 10:40:37.942 -04:00 [INF] [Logger] 3/22/2023 10:40:37 AM: Reached Index
+2023-03-22 10:40:37.943 -04:00 [INF] Executing ViewResult, running view Index.
+2023-03-22 10:40:37.955 -04:00 [INF] Executed ViewResult - view Index executed in 12.598ms.
+2023-03-22 10:40:37.955 -04:00 [INF] Executed action ContactManager.Controllers.ContactsController.Index (ContactManagerStarter) in 18.9942ms
+2023-03-22 10:40:37.955 -04:00 [INF] Executed endpoint 'ContactManager.Controllers.ContactsController.Index (ContactManagerStarter)'
+2023-03-22 10:40:37.958 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts - - - 200 - text/html;+charset=utf-8 26.2612ms
+2023-03-22 10:40:37.979 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/_vs/browserLink - -
+2023-03-22 10:40:37.983 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - -
+2023-03-22 10:40:37.989 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 5.7207ms
+2023-03-22 10:40:38.010 -04:00 [INF] Executed endpoint '/contacthub'
+2023-03-22 10:40:38.010 -04:00 [INF] Request finished HTTP/2 CONNECT https://localhost:7276/contactHub?id=DBU_s4F6iyslZbcmvB2ivw - - - 200 - - 28453.9606ms
+2023-03-22 10:40:38.023 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 43.4376ms
+2023-03-22 10:40:38.060 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts/GetContacts application/json;+charset=utf-8 -
+2023-03-22 10:40:38.060 -04:00 [INF] Request starting HTTP/2 POST https://localhost:7276/contactHub/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0
+2023-03-22 10:40:38.061 -04:00 [INF] Executing endpoint '/contacthub/negotiate'
+2023-03-22 10:40:38.061 -04:00 [INF] Executing endpoint 'ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter)'
+2023-03-22 10:40:38.062 -04:00 [INF] Executed endpoint '/contacthub/negotiate'
+2023-03-22 10:40:38.062 -04:00 [INF] Request finished HTTP/2 POST https://localhost:7276/contactHub/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 - 200 316 application/json 1.6206ms
+2023-03-22 10:40:38.064 -04:00 [INF] Route matched with {action = "GetContacts", controller = "Contacts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetContacts() on controller ContactManager.Controllers.ContactsController (ContactManagerStarter).
+2023-03-22 10:40:38.065 -04:00 [INF] Request starting HTTP/2 CONNECT https://localhost:7276/contactHub?id=ybQnk9GJ8yiuLHfl_5U49Q - -
+2023-03-22 10:40:38.066 -04:00 [INF] Executing endpoint '/contacthub'
+2023-03-22 10:40:38.068 -04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+SELECT [c].[Id], [c].[DOB], [c].[FirstName], [c].[LastName], [c].[Title]
+FROM [Contacts] AS [c]
+ORDER BY [c].[FirstName]
+2023-03-22 10:40:38.071 -04:00 [INF] Executing PartialViewResult, running view _ContactTable.
+2023-03-22 10:40:38.071 -04:00 [INF] Executed PartialViewResult - view _ContactTable executed in 1.0394ms.
+2023-03-22 10:40:38.071 -04:00 [INF] Executed action ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter) in 6.933ms
+2023-03-22 10:40:38.071 -04:00 [INF] Executed endpoint 'ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter)'
+2023-03-22 10:40:38.071 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts/GetContacts application/json;+charset=utf-8 - - 200 - text/html;+charset=utf-8 11.8323ms
+2023-03-22 10:40:38.079 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/favicon.ico - -
+2023-03-22 10:40:38.107 -04:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'O:\TestRepoSAB\ContactManagerStarter\wwwroot\favicon.ico'
+2023-03-22 10:40:38.107 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/favicon.ico - - - 200 5430 image/x-icon 28.5866ms
+2023-03-22 10:41:37.560 -04:00 [INF] Executed DbCommand (164ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+CREATE DATABASE [ContactManagerDbJB1];
+2023-03-22 10:41:37.615 -04:00 [INF] Executed DbCommand (43ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [ContactManagerDbJB1] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2023-03-22 10:41:37.636 -04:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+SELECT 1
+2023-03-22 10:41:37.716 -04:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2023-03-22 10:41:37.717 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+SELECT 1
+2023-03-22 10:41:37.733 -04:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-03-22 10:41:37.737 -04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-03-22 10:41:37.755 -04:00 [INF] Applying migration '20221212030042_seed'.
+2023-03-22 10:41:37.868 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+CREATE TABLE [Contacts] (
+    [Id] uniqueidentifier NOT NULL,
+    [Title] nvarchar(max) NOT NULL,
+    [FirstName] nvarchar(max) NOT NULL,
+    [LastName] nvarchar(max) NOT NULL,
+    [DOB] datetime2 NOT NULL,
+    CONSTRAINT [PK_Contacts] PRIMARY KEY ([Id])
+);
+2023-03-22 10:41:37.870 -04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+CREATE TABLE [Addresses] (
+    [Id] uniqueidentifier NOT NULL,
+    [Street1] nvarchar(max) NOT NULL,
+    [Street2] nvarchar(max) NOT NULL,
+    [City] nvarchar(max) NOT NULL,
+    [State] nvarchar(max) NOT NULL,
+    [Zip] int NOT NULL,
+    [Type] int NOT NULL,
+    [ContactId] uniqueidentifier NOT NULL,
+    CONSTRAINT [PK_Addresses] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Addresses_Contacts_ContactId] FOREIGN KEY ([ContactId]) REFERENCES [Contacts] ([Id]) ON DELETE CASCADE
+);
+2023-03-22 10:41:37.872 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+CREATE TABLE [EmailAddresses] (
+    [Id] uniqueidentifier NOT NULL,
+    [Email] nvarchar(max) NOT NULL,
+    [Type] int NOT NULL,
+    [ContactId] uniqueidentifier NOT NULL,
+    CONSTRAINT [PK_EmailAddresses] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_EmailAddresses_Contacts_ContactId] FOREIGN KEY ([ContactId]) REFERENCES [Contacts] ([Id]) ON DELETE CASCADE
+);
+2023-03-22 10:41:37.890 -04:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'DOB', N'FirstName', N'LastName', N'Title') AND [object_id] = OBJECT_ID(N'[Contacts]'))
+    SET IDENTITY_INSERT [Contacts] ON;
+INSERT INTO [Contacts] ([Id], [DOB], [FirstName], [LastName], [Title])
+VALUES ('930d4f10-9daf-4582-b4bb-cb9abfd382b3', '1960-05-01T00:00:00.0000000', N'Bill', N'Gates', N'Mr.'),
+('99580d68-9d2f-4552-862e-06b3204193f1', '1980-01-11T00:00:00.0000000', N'Sundar', N'Pichai', N'Mr.'),
+('b728f6ef-65d8-4da2-8e5f-0f67e3c3401c', '1950-09-21T00:00:00.0000000', N'Steve', N'Jobs', N'Mr.');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'DOB', N'FirstName', N'LastName', N'Title') AND [object_id] = OBJECT_ID(N'[Contacts]'))
+    SET IDENTITY_INSERT [Contacts] OFF;
+2023-03-22 10:41:37.901 -04:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'City', N'ContactId', N'State', N'Street1', N'Street2', N'Type', N'Zip') AND [object_id] = OBJECT_ID(N'[Addresses]'))
+    SET IDENTITY_INSERT [Addresses] ON;
+INSERT INTO [Addresses] ([Id], [City], [ContactId], [State], [Street1], [Street2], [Type], [Zip])
+VALUES ('1632295e-fc3c-49c5-b30f-d673fc816b73', N'Westbury', 'b728f6ef-65d8-4da2-8e5f-0f67e3c3401c', N'NY', N'245 Coral Place', N'Appt #3', 0, 11590),
+('7931505c-fca8-4a35-8d24-b32df341643d', N'Melvile', '99580d68-9d2f-4552-862e-06b3204193f1', N'NY', N'10 Main St', N'', 0, 11757),
+('a0762d8b-9dc6-4fa0-99dc-6f7438732760', N'Los Angles', 'b728f6ef-65d8-4da2-8e5f-0f67e3c3401c', N'CA', N'1 Apple Way', N'', 1, 11757),
+('b39467d9-a1f4-4843-aee9-7e9060448ded', N'Melvile', '930d4f10-9daf-4582-b4bb-cb9abfd382b3', N'NY', N'10 Main St', N'', 0, 11757);
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'City', N'ContactId', N'State', N'Street1', N'Street2', N'Type', N'Zip') AND [object_id] = OBJECT_ID(N'[Addresses]'))
+    SET IDENTITY_INSERT [Addresses] OFF;
+2023-03-22 10:41:37.909 -04:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'ContactId', N'Email', N'Type') AND [object_id] = OBJECT_ID(N'[EmailAddresses]'))
+    SET IDENTITY_INSERT [EmailAddresses] ON;
+INSERT INTO [EmailAddresses] ([Id], [ContactId], [Email], [Type])
+VALUES ('3a406f64-ad7b-4098-ab01-7e93aae2b851', 'b728f6ef-65d8-4da2-8e5f-0f67e3c3401c', N'SteveJobs@apple.com', 1),
+('3ddeb084-5e5d-4eca-b275-e4f6886e04dc', 'b728f6ef-65d8-4da2-8e5f-0f67e3c3401c', N'Steve@Jobs.com', 0),
+('5111f412-a7f4-4169-bb27-632687569ccd', '930d4f10-9daf-4582-b4bb-cb9abfd382b3', N'Bill@gates.com', 0),
+('d1a50413-20c0-4972-a351-8be24e1fc939', '99580d68-9d2f-4552-862e-06b3204193f1', N'SundarPichai@gmail.com', 1);
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'ContactId', N'Email', N'Type') AND [object_id] = OBJECT_ID(N'[EmailAddresses]'))
+    SET IDENTITY_INSERT [EmailAddresses] OFF;
+2023-03-22 10:41:37.911 -04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+CREATE INDEX [IX_Addresses_ContactId] ON [Addresses] ([ContactId]);
+2023-03-22 10:41:37.913 -04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+CREATE INDEX [IX_EmailAddresses_ContactId] ON [EmailAddresses] ([ContactId]);
+2023-03-22 10:41:37.915 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20221212030042_seed', N'7.0.0');
+2023-03-22 10:41:37.921 -04:00 [INF] Applying migration '20230321181047_PrimaryEmail'.
+2023-03-22 10:41:37.971 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+ALTER TABLE [EmailAddresses] ADD [IsPrimary] bit NULL;
+2023-03-22 10:41:37.972 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+UPDATE [EmailAddresses] SET [IsPrimary] = CAST(1 AS bit)
+WHERE [Id] = '3a406f64-ad7b-4098-ab01-7e93aae2b851';
+SELECT @@ROWCOUNT;
+2023-03-22 10:41:37.973 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+UPDATE [EmailAddresses] SET [IsPrimary] = CAST(1 AS bit)
+WHERE [Id] = '3ddeb084-5e5d-4eca-b275-e4f6886e04dc';
+SELECT @@ROWCOUNT;
+2023-03-22 10:41:37.973 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+UPDATE [EmailAddresses] SET [IsPrimary] = CAST(1 AS bit)
+WHERE [Id] = '5111f412-a7f4-4169-bb27-632687569ccd';
+SELECT @@ROWCOUNT;
+2023-03-22 10:41:37.973 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+UPDATE [EmailAddresses] SET [IsPrimary] = CAST(1 AS bit)
+WHERE [Id] = 'd1a50413-20c0-4972-a351-8be24e1fc939';
+SELECT @@ROWCOUNT;
+2023-03-22 10:41:37.973 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230321181047_PrimaryEmail', N'7.0.0');
+2023-03-22 10:41:38.085 -04:00 [INF] User profile is available. Using 'C:\Users\notjo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-22 10:41:38.306 -04:00 [INF] Now listening on: https://localhost:7276
+2023-03-22 10:41:38.306 -04:00 [INF] Now listening on: http://localhost:5276
+2023-03-22 10:41:38.308 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-22 10:41:38.308 -04:00 [INF] Hosting environment: Development
+2023-03-22 10:41:38.308 -04:00 [INF] Content root path: O:\TestRepoSAB\ContactManagerStarter
+2023-03-22 10:41:38.761 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/ - -
+2023-03-22 10:41:38.830 -04:00 [INF] Executing endpoint 'ContactManagerStarter.Controllers.HomeController.Index (ContactManagerStarter)'
+2023-03-22 10:41:38.839 -04:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ContactManagerStarter.Controllers.HomeController (ContactManagerStarter).
+2023-03-22 10:41:38.850 -04:00 [INF] Executing ViewResult, running view Index.
+2023-03-22 10:41:39.090 -04:00 [INF] Executed ViewResult - view Index executed in 242.618ms.
+2023-03-22 10:41:39.096 -04:00 [INF] Executed action ContactManagerStarter.Controllers.HomeController.Index (ContactManagerStarter) in 255.8091ms
+2023-03-22 10:41:39.097 -04:00 [INF] Executed endpoint 'ContactManagerStarter.Controllers.HomeController.Index (ContactManagerStarter)'
+2023-03-22 10:41:39.143 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/ - - - 200 - text/html;+charset=utf-8 385.1022ms
+2023-03-22 10:41:39.177 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/lib/bootstrap/dist/css/bootstrap.css - -
+2023-03-22 10:41:39.177 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/css/site.css - -
+2023-03-22 10:41:39.177 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/css/themify-icons.css - -
+2023-03-22 10:41:39.178 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/lib/bootstrap/dist/js/bootstrap.bundle.js - -
+2023-03-22 10:41:39.180 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/lib/jquery/dist/jquery.js - -
+2023-03-22 10:41:39.191 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - -
+2023-03-22 10:41:39.198 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/lib/signalr/dist/browser/signalr.js - -
+2023-03-22 10:41:39.205 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-03-22 10:41:39.209 -04:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.css was not modified
+2023-03-22 10:41:39.209 -04:00 [INF] The file /lib/signalr/dist/browser/signalr.js was not modified
+2023-03-22 10:41:39.209 -04:00 [INF] The file /css/site.css was not modified
+2023-03-22 10:41:39.209 -04:00 [INF] The file /js/site.js was not modified
+2023-03-22 10:41:39.209 -04:00 [INF] The file /css/themify-icons.css was not modified
+2023-03-22 10:41:39.209 -04:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.js was not modified
+2023-03-22 10:41:39.209 -04:00 [INF] The file /lib/jquery/dist/jquery.js was not modified
+2023-03-22 10:41:39.211 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/lib/signalr/dist/browser/signalr.js - - - 304 - text/javascript 13.2571ms
+2023-03-22 10:41:39.211 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/lib/bootstrap/dist/css/bootstrap.css - - - 304 - text/css 34.3036ms
+2023-03-22 10:41:39.211 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 304 - text/javascript 7.9522ms
+2023-03-22 10:41:39.211 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/css/themify-icons.css - - - 304 - text/css 33.8741ms
+2023-03-22 10:41:39.211 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/lib/bootstrap/dist/js/bootstrap.bundle.js - - - 304 - text/javascript 33.4671ms
+2023-03-22 10:41:39.211 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/lib/jquery/dist/jquery.js - - - 304 - text/javascript 32.9228ms
+2023-03-22 10:41:39.211 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/css/site.css - - - 304 - text/css 34.4462ms
+2023-03-22 10:41:39.220 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 29.6813ms
+2023-03-22 10:41:39.286 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/_vs/browserLink - -
+2023-03-22 10:41:39.347 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 61.7279ms
+2023-03-22 10:41:40.145 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts - -
+2023-03-22 10:41:40.149 -04:00 [INF] Executing endpoint 'ContactManager.Controllers.ContactsController.Index (ContactManagerStarter)'
+2023-03-22 10:41:40.150 -04:00 [INF] Route matched with {action = "Index", controller = "Contacts"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ContactManager.Controllers.ContactsController (ContactManagerStarter).
+2023-03-22 10:41:40.177 -04:00 [INF] [Logger] 3/22/2023 10:41:40 AM: Reached Index
+2023-03-22 10:41:40.180 -04:00 [INF] Executing ViewResult, running view Index.
+2023-03-22 10:41:40.198 -04:00 [INF] Executed ViewResult - view Index executed in 19.8933ms.
+2023-03-22 10:41:40.198 -04:00 [INF] Executed action ContactManager.Controllers.ContactsController.Index (ContactManagerStarter) in 47.5166ms
+2023-03-22 10:41:40.198 -04:00 [INF] Executed endpoint 'ContactManager.Controllers.ContactsController.Index (ContactManagerStarter)'
+2023-03-22 10:41:40.201 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts - - - 200 - text/html;+charset=utf-8 56.8818ms
+2023-03-22 10:41:40.221 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/js/ContactTable.js - -
+2023-03-22 10:41:40.222 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/_vs/browserLink - -
+2023-03-22 10:41:40.222 -04:00 [INF] The file /js/ContactTable.js was not modified
+2023-03-22 10:41:40.222 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/js/ContactTable.js - - - 304 - text/javascript 0.4990ms
+2023-03-22 10:41:40.232 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - -
+2023-03-22 10:41:40.234 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 2.4820ms
+2023-03-22 10:41:40.270 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 48.2671ms
+2023-03-22 10:41:40.376 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts/GetContacts application/json;+charset=utf-8 -
+2023-03-22 10:41:40.378 -04:00 [INF] Request starting HTTP/2 POST https://localhost:7276/contactHub/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0
+2023-03-22 10:41:40.392 -04:00 [INF] Executing endpoint 'ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter)'
+2023-03-22 10:41:40.392 -04:00 [INF] Executing endpoint '/contacthub/negotiate'
+2023-03-22 10:41:40.403 -04:00 [INF] Route matched with {action = "GetContacts", controller = "Contacts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetContacts() on controller ContactManager.Controllers.ContactsController (ContactManagerStarter).
+2023-03-22 10:41:40.431 -04:00 [INF] Executed endpoint '/contacthub/negotiate'
+2023-03-22 10:41:40.431 -04:00 [INF] Request finished HTTP/2 POST https://localhost:7276/contactHub/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 - 200 316 application/json 52.9790ms
+2023-03-22 10:41:40.444 -04:00 [INF] Request starting HTTP/2 CONNECT https://localhost:7276/contactHub?id=y-DsZJ66oCcZ6IPYEvqBSw - -
+2023-03-22 10:41:40.445 -04:00 [INF] Executing endpoint '/contacthub'
+2023-03-22 10:41:40.731 -04:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+SELECT [c].[Id], [c].[DOB], [c].[FirstName], [c].[LastName], [c].[Title]
+FROM [Contacts] AS [c]
+ORDER BY [c].[FirstName]
+2023-03-22 10:41:40.786 -04:00 [INF] Executing PartialViewResult, running view _ContactTable.
+2023-03-22 10:41:40.856 -04:00 [INF] Executed PartialViewResult - view _ContactTable executed in 70.9136ms.
+2023-03-22 10:41:40.856 -04:00 [INF] Executed action ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter) in 453.0199ms
+2023-03-22 10:41:40.856 -04:00 [INF] Executed endpoint 'ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter)'
+2023-03-22 10:41:40.861 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts/GetContacts application/json;+charset=utf-8 - - 200 - text/html;+charset=utf-8 485.0616ms
+2023-03-22 10:41:41.793 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=930d4f10-9daf-4582-b4bb-cb9abfd382b3 application/json;+charset=utf-8 -
+2023-03-22 10:41:41.794 -04:00 [INF] Executing endpoint 'ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)'
+2023-03-22 10:41:41.804 -04:00 [INF] Route matched with {action = "EditContact", controller = "Contacts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditContact(System.Guid) on controller ContactManager.Controllers.ContactsController (ContactManagerStarter).
+2023-03-22 10:41:41.962 -04:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2023-03-22 10:41:42.025 -04:00 [INF] Executed DbCommand (44ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='600']
+SELECT [t].[Id], [t].[DOB], [t].[FirstName], [t].[LastName], [t].[Title], [e].[Id], [e].[ContactId], [e].[Email], [e].[IsPrimary], [e].[Type], [a].[Id], [a].[City], [a].[ContactId], [a].[State], [a].[Street1], [a].[Street2], [a].[Type], [a].[Zip]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[DOB], [c].[FirstName], [c].[LastName], [c].[Title]
+    FROM [Contacts] AS [c]
+    WHERE [c].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [EmailAddresses] AS [e] ON [t].[Id] = [e].[ContactId]
+LEFT JOIN [Addresses] AS [a] ON [t].[Id] = [a].[ContactId]
+ORDER BY [t].[Id], [e].[Id]
+2023-03-22 10:41:44.293 -04:00 [INF] Executing PartialViewResult, running view _EditContact.
+2023-03-22 10:41:44.373 -04:00 [INF] Executed PartialViewResult - view _EditContact executed in 81.3585ms.
+2023-03-22 10:41:44.373 -04:00 [INF] Executed action ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter) in 2569.2386ms
+2023-03-22 10:41:44.373 -04:00 [INF] Executed endpoint 'ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)'
+2023-03-22 10:41:44.374 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=930d4f10-9daf-4582-b4bb-cb9abfd382b3 application/json;+charset=utf-8 - - 200 - text/html;+charset=utf-8 2581.2933ms
+2023-03-22 10:41:46.920 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=b728f6ef-65d8-4da2-8e5f-0f67e3c3401c application/json;+charset=utf-8 -
+2023-03-22 10:41:46.920 -04:00 [INF] Executing endpoint 'ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)'
+2023-03-22 10:41:46.920 -04:00 [INF] Route matched with {action = "EditContact", controller = "Contacts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditContact(System.Guid) on controller ContactManager.Controllers.ContactsController (ContactManagerStarter).
+2023-03-22 10:41:46.928 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='600']
+SELECT [t].[Id], [t].[DOB], [t].[FirstName], [t].[LastName], [t].[Title], [e].[Id], [e].[ContactId], [e].[Email], [e].[IsPrimary], [e].[Type], [a].[Id], [a].[City], [a].[ContactId], [a].[State], [a].[Street1], [a].[Street2], [a].[Type], [a].[Zip]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[DOB], [c].[FirstName], [c].[LastName], [c].[Title]
+    FROM [Contacts] AS [c]
+    WHERE [c].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [EmailAddresses] AS [e] ON [t].[Id] = [e].[ContactId]
+LEFT JOIN [Addresses] AS [a] ON [t].[Id] = [a].[ContactId]
+ORDER BY [t].[Id], [e].[Id]
+2023-03-22 10:41:49.509 -04:00 [INF] Executing PartialViewResult, running view _EditContact.
+2023-03-22 10:41:49.511 -04:00 [INF] Executed PartialViewResult - view _EditContact executed in 2.2952ms.
+2023-03-22 10:41:49.511 -04:00 [INF] Executed action ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter) in 2590.8874ms
+2023-03-22 10:41:49.511 -04:00 [INF] Executed endpoint 'ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)'
+2023-03-22 10:41:49.511 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=b728f6ef-65d8-4da2-8e5f-0f67e3c3401c application/json;+charset=utf-8 - - 200 - text/html;+charset=utf-8 2591.7261ms
+2023-03-22 10:41:52.668 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=99580d68-9d2f-4552-862e-06b3204193f1 application/json;+charset=utf-8 -
+2023-03-22 10:41:52.669 -04:00 [INF] Executing endpoint 'ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)'
+2023-03-22 10:41:52.669 -04:00 [INF] Route matched with {action = "EditContact", controller = "Contacts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditContact(System.Guid) on controller ContactManager.Controllers.ContactsController (ContactManagerStarter).
+2023-03-22 10:41:52.671 -04:00 [INF] Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='600']
+SELECT [t].[Id], [t].[DOB], [t].[FirstName], [t].[LastName], [t].[Title], [e].[Id], [e].[ContactId], [e].[Email], [e].[IsPrimary], [e].[Type], [a].[Id], [a].[City], [a].[ContactId], [a].[State], [a].[Street1], [a].[Street2], [a].[Type], [a].[Zip]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[DOB], [c].[FirstName], [c].[LastName], [c].[Title]
+    FROM [Contacts] AS [c]
+    WHERE [c].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [EmailAddresses] AS [e] ON [t].[Id] = [e].[ContactId]
+LEFT JOIN [Addresses] AS [a] ON [t].[Id] = [a].[ContactId]
+ORDER BY [t].[Id], [e].[Id]
+2023-03-22 10:41:54.274 -04:00 [INF] Executing PartialViewResult, running view _EditContact.
+2023-03-22 10:41:54.275 -04:00 [INF] Executed PartialViewResult - view _EditContact executed in 1.4763ms.
+2023-03-22 10:41:54.276 -04:00 [INF] Executed action ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter) in 1606.9437ms
+2023-03-22 10:41:54.276 -04:00 [INF] Executed endpoint 'ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)'
+2023-03-22 10:41:54.276 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=99580d68-9d2f-4552-862e-06b3204193f1 application/json;+charset=utf-8 - - 200 - text/html;+charset=utf-8 1607.3642ms
+2023-03-22 10:42:07.679 -04:00 [INF] Executed DbCommand (231ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+CREATE DATABASE [ContactManagerDbJB2];
+2023-03-22 10:42:07.747 -04:00 [INF] Executed DbCommand (52ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [ContactManagerDbJB2] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2023-03-22 10:42:07.771 -04:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+SELECT 1
+2023-03-22 10:42:07.868 -04:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2023-03-22 10:42:07.869 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+SELECT 1
+2023-03-22 10:42:07.889 -04:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-03-22 10:42:07.892 -04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-03-22 10:42:07.909 -04:00 [INF] Applying migration '20221212030042_seed'.
+2023-03-22 10:42:08.025 -04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+CREATE TABLE [Contacts] (
+    [Id] uniqueidentifier NOT NULL,
+    [Title] nvarchar(max) NOT NULL,
+    [FirstName] nvarchar(max) NOT NULL,
+    [LastName] nvarchar(max) NOT NULL,
+    [DOB] datetime2 NOT NULL,
+    CONSTRAINT [PK_Contacts] PRIMARY KEY ([Id])
+);
+2023-03-22 10:42:08.028 -04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+CREATE TABLE [Addresses] (
+    [Id] uniqueidentifier NOT NULL,
+    [Street1] nvarchar(max) NOT NULL,
+    [Street2] nvarchar(max) NOT NULL,
+    [City] nvarchar(max) NOT NULL,
+    [State] nvarchar(max) NOT NULL,
+    [Zip] int NOT NULL,
+    [Type] int NOT NULL,
+    [ContactId] uniqueidentifier NOT NULL,
+    CONSTRAINT [PK_Addresses] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Addresses_Contacts_ContactId] FOREIGN KEY ([ContactId]) REFERENCES [Contacts] ([Id]) ON DELETE CASCADE
+);
+2023-03-22 10:42:08.030 -04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+CREATE TABLE [EmailAddresses] (
+    [Id] uniqueidentifier NOT NULL,
+    [Email] nvarchar(max) NOT NULL,
+    [Type] int NOT NULL,
+    [ContactId] uniqueidentifier NOT NULL,
+    CONSTRAINT [PK_EmailAddresses] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_EmailAddresses_Contacts_ContactId] FOREIGN KEY ([ContactId]) REFERENCES [Contacts] ([Id]) ON DELETE CASCADE
+);
+2023-03-22 10:42:08.051 -04:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'DOB', N'FirstName', N'LastName', N'Title') AND [object_id] = OBJECT_ID(N'[Contacts]'))
+    SET IDENTITY_INSERT [Contacts] ON;
+INSERT INTO [Contacts] ([Id], [DOB], [FirstName], [LastName], [Title])
+VALUES ('930d4f10-9daf-4582-b4bb-cb9abfd382b3', '1960-05-01T00:00:00.0000000', N'Bill', N'Gates', N'Mr.'),
+('99580d68-9d2f-4552-862e-06b3204193f1', '1980-01-11T00:00:00.0000000', N'Sundar', N'Pichai', N'Mr.'),
+('b728f6ef-65d8-4da2-8e5f-0f67e3c3401c', '1950-09-21T00:00:00.0000000', N'Steve', N'Jobs', N'Mr.');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'DOB', N'FirstName', N'LastName', N'Title') AND [object_id] = OBJECT_ID(N'[Contacts]'))
+    SET IDENTITY_INSERT [Contacts] OFF;
+2023-03-22 10:42:08.064 -04:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'City', N'ContactId', N'State', N'Street1', N'Street2', N'Type', N'Zip') AND [object_id] = OBJECT_ID(N'[Addresses]'))
+    SET IDENTITY_INSERT [Addresses] ON;
+INSERT INTO [Addresses] ([Id], [City], [ContactId], [State], [Street1], [Street2], [Type], [Zip])
+VALUES ('1632295e-fc3c-49c5-b30f-d673fc816b73', N'Westbury', 'b728f6ef-65d8-4da2-8e5f-0f67e3c3401c', N'NY', N'245 Coral Place', N'Appt #3', 0, 11590),
+('7931505c-fca8-4a35-8d24-b32df341643d', N'Melvile', '99580d68-9d2f-4552-862e-06b3204193f1', N'NY', N'10 Main St', N'', 0, 11757),
+('a0762d8b-9dc6-4fa0-99dc-6f7438732760', N'Los Angles', 'b728f6ef-65d8-4da2-8e5f-0f67e3c3401c', N'CA', N'1 Apple Way', N'', 1, 11757),
+('b39467d9-a1f4-4843-aee9-7e9060448ded', N'Melvile', '930d4f10-9daf-4582-b4bb-cb9abfd382b3', N'NY', N'10 Main St', N'', 0, 11757);
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'City', N'ContactId', N'State', N'Street1', N'Street2', N'Type', N'Zip') AND [object_id] = OBJECT_ID(N'[Addresses]'))
+    SET IDENTITY_INSERT [Addresses] OFF;
+2023-03-22 10:42:08.074 -04:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'ContactId', N'Email', N'Type') AND [object_id] = OBJECT_ID(N'[EmailAddresses]'))
+    SET IDENTITY_INSERT [EmailAddresses] ON;
+INSERT INTO [EmailAddresses] ([Id], [ContactId], [Email], [Type])
+VALUES ('3a406f64-ad7b-4098-ab01-7e93aae2b851', 'b728f6ef-65d8-4da2-8e5f-0f67e3c3401c', N'SteveJobs@apple.com', 1),
+('3ddeb084-5e5d-4eca-b275-e4f6886e04dc', 'b728f6ef-65d8-4da2-8e5f-0f67e3c3401c', N'Steve@Jobs.com', 0),
+('5111f412-a7f4-4169-bb27-632687569ccd', '930d4f10-9daf-4582-b4bb-cb9abfd382b3', N'Bill@gates.com', 0),
+('d1a50413-20c0-4972-a351-8be24e1fc939', '99580d68-9d2f-4552-862e-06b3204193f1', N'SundarPichai@gmail.com', 1);
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'ContactId', N'Email', N'Type') AND [object_id] = OBJECT_ID(N'[EmailAddresses]'))
+    SET IDENTITY_INSERT [EmailAddresses] OFF;
+2023-03-22 10:42:08.075 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+CREATE INDEX [IX_Addresses_ContactId] ON [Addresses] ([ContactId]);
+2023-03-22 10:42:08.078 -04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+CREATE INDEX [IX_EmailAddresses_ContactId] ON [EmailAddresses] ([ContactId]);
+2023-03-22 10:42:08.079 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20221212030042_seed', N'7.0.0');
+2023-03-22 10:42:08.086 -04:00 [INF] Applying migration '20230321181047_PrimaryEmail'.
+2023-03-22 10:42:08.142 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+ALTER TABLE [EmailAddresses] ADD [IsPrimary] bit NULL;
+2023-03-22 10:42:08.143 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+UPDATE [EmailAddresses] SET [IsPrimary] = CAST(1 AS bit)
+WHERE [Id] = '3a406f64-ad7b-4098-ab01-7e93aae2b851';
+SELECT @@ROWCOUNT;
+2023-03-22 10:42:08.143 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+UPDATE [EmailAddresses] SET [IsPrimary] = CAST(1 AS bit)
+WHERE [Id] = '3ddeb084-5e5d-4eca-b275-e4f6886e04dc';
+SELECT @@ROWCOUNT;
+2023-03-22 10:42:08.143 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+UPDATE [EmailAddresses] SET [IsPrimary] = CAST(1 AS bit)
+WHERE [Id] = '5111f412-a7f4-4169-bb27-632687569ccd';
+SELECT @@ROWCOUNT;
+2023-03-22 10:42:08.144 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+UPDATE [EmailAddresses] SET [IsPrimary] = CAST(1 AS bit)
+WHERE [Id] = 'd1a50413-20c0-4972-a351-8be24e1fc939';
+SELECT @@ROWCOUNT;
+2023-03-22 10:42:08.144 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230321181047_PrimaryEmail', N'7.0.0');
+2023-03-22 10:42:08.329 -04:00 [INF] User profile is available. Using 'C:\Users\notjo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-22 10:42:08.642 -04:00 [INF] Now listening on: https://localhost:7276
+2023-03-22 10:42:08.642 -04:00 [INF] Now listening on: http://localhost:5276
+2023-03-22 10:42:08.644 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-22 10:42:08.644 -04:00 [INF] Hosting environment: Development
+2023-03-22 10:42:08.644 -04:00 [INF] Content root path: O:\TestRepoSAB\ContactManagerStarter
+2023-03-22 10:42:09.331 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/ - -
+2023-03-22 10:42:09.410 -04:00 [INF] Executing endpoint 'ContactManagerStarter.Controllers.HomeController.Index (ContactManagerStarter)'
+2023-03-22 10:42:09.419 -04:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ContactManagerStarter.Controllers.HomeController (ContactManagerStarter).
+2023-03-22 10:42:09.432 -04:00 [INF] Executing ViewResult, running view Index.
+2023-03-22 10:42:09.618 -04:00 [INF] Executed ViewResult - view Index executed in 186.0924ms.
+2023-03-22 10:42:09.624 -04:00 [INF] Executed action ContactManagerStarter.Controllers.HomeController.Index (ContactManagerStarter) in 204.3563ms
+2023-03-22 10:42:09.624 -04:00 [INF] Executed endpoint 'ContactManagerStarter.Controllers.HomeController.Index (ContactManagerStarter)'
+2023-03-22 10:42:09.654 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/ - - - 200 - text/html;+charset=utf-8 328.4296ms
+2023-03-22 10:42:09.700 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - -
+2023-03-22 10:42:09.719 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 18.2284ms
+2023-03-22 10:42:09.885 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/_vs/browserLink - -
+2023-03-22 10:42:10.048 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 162.2223ms
+2023-03-22 10:42:39.835 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts - -
+2023-03-22 10:42:39.843 -04:00 [INF] Executing endpoint 'ContactManager.Controllers.ContactsController.Index (ContactManagerStarter)'
+2023-03-22 10:42:39.845 -04:00 [INF] Route matched with {action = "Index", controller = "Contacts"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ContactManager.Controllers.ContactsController (ContactManagerStarter).
+2023-03-22 10:42:39.870 -04:00 [INF] [Logger] 3/22/2023 10:42:39 AM: Reached Index
+2023-03-22 10:42:39.872 -04:00 [INF] Executing ViewResult, running view Index.
+2023-03-22 10:42:39.882 -04:00 [INF] Executed ViewResult - view Index executed in 11.4474ms.
+2023-03-22 10:42:39.883 -04:00 [INF] Executed action ContactManager.Controllers.ContactsController.Index (ContactManagerStarter) in 37.4482ms
+2023-03-22 10:42:39.883 -04:00 [INF] Executed endpoint 'ContactManager.Controllers.ContactsController.Index (ContactManagerStarter)'
+2023-03-22 10:42:39.923 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/css/site.css - -
+2023-03-22 10:42:39.923 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/lib/bootstrap/dist/css/bootstrap.css - -
+2023-03-22 10:42:39.923 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/lib/jquery/dist/jquery.js - -
+2023-03-22 10:42:39.924 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/css/themify-icons.css - -
+2023-03-22 10:42:39.928 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts - - - 200 - text/html;+charset=utf-8 92.5145ms
+2023-03-22 10:42:39.930 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/lib/signalr/dist/browser/signalr.js - -
+2023-03-22 10:42:39.930 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/lib/bootstrap/dist/js/bootstrap.bundle.js - -
+2023-03-22 10:42:39.937 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-03-22 10:42:39.942 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/js/ContactTable.js - -
+2023-03-22 10:42:39.950 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - -
+2023-03-22 10:42:39.951 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 1.5889ms
+2023-03-22 10:42:39.952 -04:00 [INF] The file /css/themify-icons.css was not modified
+2023-03-22 10:42:39.952 -04:00 [INF] The file /js/ContactTable.js was not modified
+2023-03-22 10:42:39.952 -04:00 [INF] The file /css/site.css was not modified
+2023-03-22 10:42:39.952 -04:00 [INF] The file /lib/jquery/dist/jquery.js was not modified
+2023-03-22 10:42:39.953 -04:00 [INF] The file /lib/signalr/dist/browser/signalr.js was not modified
+2023-03-22 10:42:39.953 -04:00 [INF] The file /js/site.js was not modified
+2023-03-22 10:42:39.953 -04:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.js was not modified
+2023-03-22 10:42:39.953 -04:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.css was not modified
+2023-03-22 10:42:39.953 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/css/themify-icons.css - - - 304 - text/css 29.6039ms
+2023-03-22 10:42:39.953 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/css/site.css - - - 304 - text/css 30.4920ms
+2023-03-22 10:42:39.953 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 304 - text/javascript 16.2736ms
+2023-03-22 10:42:39.954 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/lib/jquery/dist/jquery.js - - - 304 - text/javascript 30.2270ms
+2023-03-22 10:42:39.953 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/lib/signalr/dist/browser/signalr.js - - - 304 - text/javascript 23.7445ms
+2023-03-22 10:42:39.954 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/js/ContactTable.js - - - 304 - text/javascript 11.5262ms
+2023-03-22 10:42:39.954 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/lib/bootstrap/dist/js/bootstrap.bundle.js - - - 304 - text/javascript 23.3769ms
+2023-03-22 10:42:39.954 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/lib/bootstrap/dist/css/bootstrap.css - - - 304 - text/css 31.0351ms
+2023-03-22 10:42:39.964 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/_vs/browserLink - -
+2023-03-22 10:42:40.021 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts/GetContacts application/json;+charset=utf-8 -
+2023-03-22 10:42:40.022 -04:00 [INF] Request starting HTTP/2 POST https://localhost:7276/contactHub/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0
+2023-03-22 10:42:40.030 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 66.3101ms
+2023-03-22 10:42:40.034 -04:00 [INF] Executing endpoint 'ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter)'
+2023-03-22 10:42:40.034 -04:00 [INF] Executing endpoint '/contacthub/negotiate'
+2023-03-22 10:42:40.042 -04:00 [INF] Route matched with {action = "GetContacts", controller = "Contacts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetContacts() on controller ContactManager.Controllers.ContactsController (ContactManagerStarter).
+2023-03-22 10:42:40.061 -04:00 [INF] Executed endpoint '/contacthub/negotiate'
+2023-03-22 10:42:40.062 -04:00 [INF] Request finished HTTP/2 POST https://localhost:7276/contactHub/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 - 200 316 application/json 39.7731ms
+2023-03-22 10:42:40.068 -04:00 [INF] Request starting HTTP/2 CONNECT https://localhost:7276/contactHub?id=JBjNjoszjxNkPyAwl4o8Aw - -
+2023-03-22 10:42:40.068 -04:00 [INF] Executing endpoint '/contacthub'
+2023-03-22 10:42:40.366 -04:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+SELECT [c].[Id], [c].[DOB], [c].[FirstName], [c].[LastName], [c].[Title]
+FROM [Contacts] AS [c]
+ORDER BY [c].[FirstName]
+2023-03-22 10:42:40.425 -04:00 [INF] Executing PartialViewResult, running view _ContactTable.
+2023-03-22 10:42:40.491 -04:00 [INF] Executed PartialViewResult - view _ContactTable executed in 67.1013ms.
+2023-03-22 10:42:40.491 -04:00 [INF] Executed action ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter) in 449.0558ms
+2023-03-22 10:42:40.491 -04:00 [INF] Executed endpoint 'ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter)'
+2023-03-22 10:42:40.495 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts/GetContacts application/json;+charset=utf-8 - - 200 - text/html;+charset=utf-8 473.6913ms
+2023-03-22 10:42:42.424 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=b728f6ef-65d8-4da2-8e5f-0f67e3c3401c application/json;+charset=utf-8 -
+2023-03-22 10:42:42.425 -04:00 [INF] Executing endpoint 'ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)'
+2023-03-22 10:42:42.435 -04:00 [INF] Route matched with {action = "EditContact", controller = "Contacts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditContact(System.Guid) on controller ContactManager.Controllers.ContactsController (ContactManagerStarter).
+2023-03-22 10:42:42.580 -04:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2023-03-22 10:42:42.624 -04:00 [INF] Executed DbCommand (23ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='600']
+SELECT [t].[Id], [t].[DOB], [t].[FirstName], [t].[LastName], [t].[Title], [e].[Id], [e].[ContactId], [e].[Email], [e].[IsPrimary], [e].[Type], [a].[Id], [a].[City], [a].[ContactId], [a].[State], [a].[Street1], [a].[Street2], [a].[Type], [a].[Zip]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[DOB], [c].[FirstName], [c].[LastName], [c].[Title]
+    FROM [Contacts] AS [c]
+    WHERE [c].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [EmailAddresses] AS [e] ON [t].[Id] = [e].[ContactId]
+LEFT JOIN [Addresses] AS [a] ON [t].[Id] = [a].[ContactId]
+ORDER BY [t].[Id], [e].[Id]
+2023-03-22 10:45:26.315 -04:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+SELECT 1
+2023-03-22 10:45:26.345 -04:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-03-22 10:45:26.347 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+SELECT 1
+2023-03-22 10:45:26.347 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-03-22 10:45:26.370 -04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-03-22 10:45:26.387 -04:00 [INF] Applying migration '20230322144520_DefaultValue'.
+2023-03-22 10:45:26.461 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230322144520_DefaultValue', N'7.0.0');
+2023-03-22 10:45:38.444 -04:00 [INF] Executed DbCommand (130ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+CREATE DATABASE [ContactManagerDbJB3];
+2023-03-22 10:45:38.531 -04:00 [INF] Executed DbCommand (61ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [ContactManagerDbJB3] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2023-03-22 10:45:38.566 -04:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+SELECT 1
+2023-03-22 10:45:38.798 -04:00 [INF] Executed DbCommand (47ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2023-03-22 10:45:38.801 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+SELECT 1
+2023-03-22 10:45:38.829 -04:00 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-03-22 10:45:38.841 -04:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-03-22 10:45:38.876 -04:00 [INF] Applying migration '20221212030042_seed'.
+2023-03-22 10:45:39.095 -04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+CREATE TABLE [Contacts] (
+    [Id] uniqueidentifier NOT NULL,
+    [Title] nvarchar(max) NOT NULL,
+    [FirstName] nvarchar(max) NOT NULL,
+    [LastName] nvarchar(max) NOT NULL,
+    [DOB] datetime2 NOT NULL,
+    CONSTRAINT [PK_Contacts] PRIMARY KEY ([Id])
+);
+2023-03-22 10:45:39.098 -04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+CREATE TABLE [Addresses] (
+    [Id] uniqueidentifier NOT NULL,
+    [Street1] nvarchar(max) NOT NULL,
+    [Street2] nvarchar(max) NOT NULL,
+    [City] nvarchar(max) NOT NULL,
+    [State] nvarchar(max) NOT NULL,
+    [Zip] int NOT NULL,
+    [Type] int NOT NULL,
+    [ContactId] uniqueidentifier NOT NULL,
+    CONSTRAINT [PK_Addresses] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Addresses_Contacts_ContactId] FOREIGN KEY ([ContactId]) REFERENCES [Contacts] ([Id]) ON DELETE CASCADE
+);
+2023-03-22 10:45:39.099 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+CREATE TABLE [EmailAddresses] (
+    [Id] uniqueidentifier NOT NULL,
+    [Email] nvarchar(max) NOT NULL,
+    [Type] int NOT NULL,
+    [ContactId] uniqueidentifier NOT NULL,
+    CONSTRAINT [PK_EmailAddresses] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_EmailAddresses_Contacts_ContactId] FOREIGN KEY ([ContactId]) REFERENCES [Contacts] ([Id]) ON DELETE CASCADE
+);
+2023-03-22 10:45:39.140 -04:00 [INF] Executed DbCommand (41ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'DOB', N'FirstName', N'LastName', N'Title') AND [object_id] = OBJECT_ID(N'[Contacts]'))
+    SET IDENTITY_INSERT [Contacts] ON;
+INSERT INTO [Contacts] ([Id], [DOB], [FirstName], [LastName], [Title])
+VALUES ('930d4f10-9daf-4582-b4bb-cb9abfd382b3', '1960-05-01T00:00:00.0000000', N'Bill', N'Gates', N'Mr.'),
+('99580d68-9d2f-4552-862e-06b3204193f1', '1980-01-11T00:00:00.0000000', N'Sundar', N'Pichai', N'Mr.'),
+('b728f6ef-65d8-4da2-8e5f-0f67e3c3401c', '1950-09-21T00:00:00.0000000', N'Steve', N'Jobs', N'Mr.');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'DOB', N'FirstName', N'LastName', N'Title') AND [object_id] = OBJECT_ID(N'[Contacts]'))
+    SET IDENTITY_INSERT [Contacts] OFF;
+2023-03-22 10:45:39.151 -04:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'City', N'ContactId', N'State', N'Street1', N'Street2', N'Type', N'Zip') AND [object_id] = OBJECT_ID(N'[Addresses]'))
+    SET IDENTITY_INSERT [Addresses] ON;
+INSERT INTO [Addresses] ([Id], [City], [ContactId], [State], [Street1], [Street2], [Type], [Zip])
+VALUES ('1632295e-fc3c-49c5-b30f-d673fc816b73', N'Westbury', 'b728f6ef-65d8-4da2-8e5f-0f67e3c3401c', N'NY', N'245 Coral Place', N'Appt #3', 0, 11590),
+('7931505c-fca8-4a35-8d24-b32df341643d', N'Melvile', '99580d68-9d2f-4552-862e-06b3204193f1', N'NY', N'10 Main St', N'', 0, 11757),
+('a0762d8b-9dc6-4fa0-99dc-6f7438732760', N'Los Angles', 'b728f6ef-65d8-4da2-8e5f-0f67e3c3401c', N'CA', N'1 Apple Way', N'', 1, 11757),
+('b39467d9-a1f4-4843-aee9-7e9060448ded', N'Melvile', '930d4f10-9daf-4582-b4bb-cb9abfd382b3', N'NY', N'10 Main St', N'', 0, 11757);
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'City', N'ContactId', N'State', N'Street1', N'Street2', N'Type', N'Zip') AND [object_id] = OBJECT_ID(N'[Addresses]'))
+    SET IDENTITY_INSERT [Addresses] OFF;
+2023-03-22 10:45:39.168 -04:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'ContactId', N'Email', N'Type') AND [object_id] = OBJECT_ID(N'[EmailAddresses]'))
+    SET IDENTITY_INSERT [EmailAddresses] ON;
+INSERT INTO [EmailAddresses] ([Id], [ContactId], [Email], [Type])
+VALUES ('3a406f64-ad7b-4098-ab01-7e93aae2b851', 'b728f6ef-65d8-4da2-8e5f-0f67e3c3401c', N'SteveJobs@apple.com', 1),
+('3ddeb084-5e5d-4eca-b275-e4f6886e04dc', 'b728f6ef-65d8-4da2-8e5f-0f67e3c3401c', N'Steve@Jobs.com', 0),
+('5111f412-a7f4-4169-bb27-632687569ccd', '930d4f10-9daf-4582-b4bb-cb9abfd382b3', N'Bill@gates.com', 0),
+('d1a50413-20c0-4972-a351-8be24e1fc939', '99580d68-9d2f-4552-862e-06b3204193f1', N'SundarPichai@gmail.com', 1);
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'ContactId', N'Email', N'Type') AND [object_id] = OBJECT_ID(N'[EmailAddresses]'))
+    SET IDENTITY_INSERT [EmailAddresses] OFF;
+2023-03-22 10:45:39.170 -04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+CREATE INDEX [IX_Addresses_ContactId] ON [Addresses] ([ContactId]);
+2023-03-22 10:45:39.173 -04:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+CREATE INDEX [IX_EmailAddresses_ContactId] ON [EmailAddresses] ([ContactId]);
+2023-03-22 10:45:39.175 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20221212030042_seed', N'7.0.0');
+2023-03-22 10:45:39.183 -04:00 [INF] Applying migration '20230321181047_PrimaryEmail'.
+2023-03-22 10:45:39.232 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+ALTER TABLE [EmailAddresses] ADD [IsPrimary] bit NULL;
+2023-03-22 10:45:39.234 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+UPDATE [EmailAddresses] SET [IsPrimary] = CAST(1 AS bit)
+WHERE [Id] = '3a406f64-ad7b-4098-ab01-7e93aae2b851';
+SELECT @@ROWCOUNT;
+2023-03-22 10:45:39.234 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+UPDATE [EmailAddresses] SET [IsPrimary] = CAST(1 AS bit)
+WHERE [Id] = '3ddeb084-5e5d-4eca-b275-e4f6886e04dc';
+SELECT @@ROWCOUNT;
+2023-03-22 10:45:39.234 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+UPDATE [EmailAddresses] SET [IsPrimary] = CAST(1 AS bit)
+WHERE [Id] = '5111f412-a7f4-4169-bb27-632687569ccd';
+SELECT @@ROWCOUNT;
+2023-03-22 10:45:39.235 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+UPDATE [EmailAddresses] SET [IsPrimary] = CAST(1 AS bit)
+WHERE [Id] = 'd1a50413-20c0-4972-a351-8be24e1fc939';
+SELECT @@ROWCOUNT;
+2023-03-22 10:45:39.235 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230321181047_PrimaryEmail', N'7.0.0');
+2023-03-22 10:45:39.236 -04:00 [INF] Applying migration '20230322144520_DefaultValue'.
+2023-03-22 10:45:39.272 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230322144520_DefaultValue', N'7.0.0');
+2023-03-22 10:45:39.423 -04:00 [INF] User profile is available. Using 'C:\Users\notjo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-22 10:45:39.663 -04:00 [INF] Now listening on: https://localhost:7276
+2023-03-22 10:45:39.663 -04:00 [INF] Now listening on: http://localhost:5276
+2023-03-22 10:45:39.666 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-22 10:45:39.667 -04:00 [INF] Hosting environment: Development
+2023-03-22 10:45:39.667 -04:00 [INF] Content root path: O:\TestRepoSAB\ContactManagerStarter
+2023-03-22 10:45:40.264 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/ - -
+2023-03-22 10:45:40.404 -04:00 [INF] Executing endpoint 'ContactManagerStarter.Controllers.HomeController.Index (ContactManagerStarter)'
+2023-03-22 10:45:40.418 -04:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ContactManagerStarter.Controllers.HomeController (ContactManagerStarter).
+2023-03-22 10:45:40.433 -04:00 [INF] Executing ViewResult, running view Index.
+2023-03-22 10:45:40.615 -04:00 [INF] Executed ViewResult - view Index executed in 180.3243ms.
+2023-03-22 10:45:40.624 -04:00 [INF] Executed action ContactManagerStarter.Controllers.HomeController.Index (ContactManagerStarter) in 204.6852ms
+2023-03-22 10:45:40.625 -04:00 [INF] Executed endpoint 'ContactManagerStarter.Controllers.HomeController.Index (ContactManagerStarter)'
+2023-03-22 10:45:40.659 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/ - - - 200 - text/html;+charset=utf-8 398.9991ms
+2023-03-22 10:45:40.699 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/css/site.css - -
+2023-03-22 10:45:40.699 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/lib/bootstrap/dist/js/bootstrap.bundle.js - -
+2023-03-22 10:45:40.699 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/css/themify-icons.css - -
+2023-03-22 10:45:40.701 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/lib/bootstrap/dist/css/bootstrap.css - -
+2023-03-22 10:45:40.712 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/lib/jquery/dist/jquery.js - -
+2023-03-22 10:45:40.715 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/lib/signalr/dist/browser/signalr.js - -
+2023-03-22 10:45:40.722 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - -
+2023-03-22 10:45:40.727 -04:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.js was not modified
+2023-03-22 10:45:40.727 -04:00 [INF] The file /css/themify-icons.css was not modified
+2023-03-22 10:45:40.727 -04:00 [INF] The file /lib/signalr/dist/browser/signalr.js was not modified
+2023-03-22 10:45:40.727 -04:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.css was not modified
+2023-03-22 10:45:40.727 -04:00 [INF] The file /lib/jquery/dist/jquery.js was not modified
+2023-03-22 10:45:40.727 -04:00 [INF] The file /css/site.css was not modified
+2023-03-22 10:45:40.729 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-03-22 10:45:40.729 -04:00 [INF] The file /js/site.js was not modified
+2023-03-22 10:45:40.729 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/lib/signalr/dist/browser/signalr.js - - - 304 - text/javascript 14.4820ms
+2023-03-22 10:45:40.729 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 304 - text/javascript 0.7479ms
+2023-03-22 10:45:40.732 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/css/site.css - - - 304 - text/css 33.9786ms
+2023-03-22 10:45:40.732 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/lib/bootstrap/dist/js/bootstrap.bundle.js - - - 304 - text/javascript 33.9788ms
+2023-03-22 10:45:40.732 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/css/themify-icons.css - - - 304 - text/css 33.9787ms
+2023-03-22 10:45:40.732 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/lib/jquery/dist/jquery.js - - - 304 - text/javascript 21.1134ms
+2023-03-22 10:45:40.732 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/lib/bootstrap/dist/css/bootstrap.css - - - 304 - text/css 34.3637ms
+2023-03-22 10:45:40.744 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 21.8634ms
+2023-03-22 10:45:40.807 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/_vs/browserLink - -
+2023-03-22 10:45:40.974 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 168.0036ms
+2023-03-22 10:46:44.411 -04:00 [INF] Executed DbCommand (211ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+CREATE DATABASE [ContactManagerDbJB4];
+2023-03-22 10:46:44.586 -04:00 [INF] Executed DbCommand (151ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [ContactManagerDbJB4] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2023-03-22 10:46:44.612 -04:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+SELECT 1
+2023-03-22 10:46:44.689 -04:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2023-03-22 10:46:44.690 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+SELECT 1
+2023-03-22 10:46:44.710 -04:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-03-22 10:46:44.716 -04:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-03-22 10:46:44.735 -04:00 [INF] Applying migration '20221212030042_seed'.
+2023-03-22 10:46:44.858 -04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+CREATE TABLE [Contacts] (
+    [Id] uniqueidentifier NOT NULL,
+    [Title] nvarchar(max) NOT NULL,
+    [FirstName] nvarchar(max) NOT NULL,
+    [LastName] nvarchar(max) NOT NULL,
+    [DOB] datetime2 NOT NULL,
+    CONSTRAINT [PK_Contacts] PRIMARY KEY ([Id])
+);
+2023-03-22 10:46:44.860 -04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+CREATE TABLE [Addresses] (
+    [Id] uniqueidentifier NOT NULL,
+    [Street1] nvarchar(max) NOT NULL,
+    [Street2] nvarchar(max) NOT NULL,
+    [City] nvarchar(max) NOT NULL,
+    [State] nvarchar(max) NOT NULL,
+    [Zip] int NOT NULL,
+    [Type] int NOT NULL,
+    [ContactId] uniqueidentifier NOT NULL,
+    CONSTRAINT [PK_Addresses] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Addresses_Contacts_ContactId] FOREIGN KEY ([ContactId]) REFERENCES [Contacts] ([Id]) ON DELETE CASCADE
+);
+2023-03-22 10:46:44.861 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+CREATE TABLE [EmailAddresses] (
+    [Id] uniqueidentifier NOT NULL,
+    [Email] nvarchar(max) NOT NULL,
+    [Type] int NOT NULL,
+    [ContactId] uniqueidentifier NOT NULL,
+    CONSTRAINT [PK_EmailAddresses] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_EmailAddresses_Contacts_ContactId] FOREIGN KEY ([ContactId]) REFERENCES [Contacts] ([Id]) ON DELETE CASCADE
+);
+2023-03-22 10:46:44.884 -04:00 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'DOB', N'FirstName', N'LastName', N'Title') AND [object_id] = OBJECT_ID(N'[Contacts]'))
+    SET IDENTITY_INSERT [Contacts] ON;
+INSERT INTO [Contacts] ([Id], [DOB], [FirstName], [LastName], [Title])
+VALUES ('930d4f10-9daf-4582-b4bb-cb9abfd382b3', '1960-05-01T00:00:00.0000000', N'Bill', N'Gates', N'Mr.'),
+('99580d68-9d2f-4552-862e-06b3204193f1', '1980-01-11T00:00:00.0000000', N'Sundar', N'Pichai', N'Mr.'),
+('b728f6ef-65d8-4da2-8e5f-0f67e3c3401c', '1950-09-21T00:00:00.0000000', N'Steve', N'Jobs', N'Mr.');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'DOB', N'FirstName', N'LastName', N'Title') AND [object_id] = OBJECT_ID(N'[Contacts]'))
+    SET IDENTITY_INSERT [Contacts] OFF;
+2023-03-22 10:46:44.895 -04:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'City', N'ContactId', N'State', N'Street1', N'Street2', N'Type', N'Zip') AND [object_id] = OBJECT_ID(N'[Addresses]'))
+    SET IDENTITY_INSERT [Addresses] ON;
+INSERT INTO [Addresses] ([Id], [City], [ContactId], [State], [Street1], [Street2], [Type], [Zip])
+VALUES ('1632295e-fc3c-49c5-b30f-d673fc816b73', N'Westbury', 'b728f6ef-65d8-4da2-8e5f-0f67e3c3401c', N'NY', N'245 Coral Place', N'Appt #3', 0, 11590),
+('7931505c-fca8-4a35-8d24-b32df341643d', N'Melvile', '99580d68-9d2f-4552-862e-06b3204193f1', N'NY', N'10 Main St', N'', 0, 11757),
+('a0762d8b-9dc6-4fa0-99dc-6f7438732760', N'Los Angles', 'b728f6ef-65d8-4da2-8e5f-0f67e3c3401c', N'CA', N'1 Apple Way', N'', 1, 11757),
+('b39467d9-a1f4-4843-aee9-7e9060448ded', N'Melvile', '930d4f10-9daf-4582-b4bb-cb9abfd382b3', N'NY', N'10 Main St', N'', 0, 11757);
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'City', N'ContactId', N'State', N'Street1', N'Street2', N'Type', N'Zip') AND [object_id] = OBJECT_ID(N'[Addresses]'))
+    SET IDENTITY_INSERT [Addresses] OFF;
+2023-03-22 10:46:44.911 -04:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'ContactId', N'Email', N'Type') AND [object_id] = OBJECT_ID(N'[EmailAddresses]'))
+    SET IDENTITY_INSERT [EmailAddresses] ON;
+INSERT INTO [EmailAddresses] ([Id], [ContactId], [Email], [Type])
+VALUES ('3a406f64-ad7b-4098-ab01-7e93aae2b851', 'b728f6ef-65d8-4da2-8e5f-0f67e3c3401c', N'SteveJobs@apple.com', 1),
+('3ddeb084-5e5d-4eca-b275-e4f6886e04dc', 'b728f6ef-65d8-4da2-8e5f-0f67e3c3401c', N'Steve@Jobs.com', 0),
+('5111f412-a7f4-4169-bb27-632687569ccd', '930d4f10-9daf-4582-b4bb-cb9abfd382b3', N'Bill@gates.com', 0),
+('d1a50413-20c0-4972-a351-8be24e1fc939', '99580d68-9d2f-4552-862e-06b3204193f1', N'SundarPichai@gmail.com', 1);
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'ContactId', N'Email', N'Type') AND [object_id] = OBJECT_ID(N'[EmailAddresses]'))
+    SET IDENTITY_INSERT [EmailAddresses] OFF;
+2023-03-22 10:46:44.913 -04:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+CREATE INDEX [IX_Addresses_ContactId] ON [Addresses] ([ContactId]);
+2023-03-22 10:46:44.916 -04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+CREATE INDEX [IX_EmailAddresses_ContactId] ON [EmailAddresses] ([ContactId]);
+2023-03-22 10:46:44.917 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20221212030042_seed', N'7.0.0');
+2023-03-22 10:46:44.926 -04:00 [INF] Applying migration '20230321181047_PrimaryEmail'.
+2023-03-22 10:46:44.976 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+ALTER TABLE [EmailAddresses] ADD [IsPrimary] bit NULL;
+2023-03-22 10:46:44.977 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+UPDATE [EmailAddresses] SET [IsPrimary] = NULL
+WHERE [Id] = '3a406f64-ad7b-4098-ab01-7e93aae2b851';
+SELECT @@ROWCOUNT;
+2023-03-22 10:46:44.978 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+UPDATE [EmailAddresses] SET [IsPrimary] = NULL
+WHERE [Id] = '3ddeb084-5e5d-4eca-b275-e4f6886e04dc';
+SELECT @@ROWCOUNT;
+2023-03-22 10:46:44.978 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+UPDATE [EmailAddresses] SET [IsPrimary] = NULL
+WHERE [Id] = '5111f412-a7f4-4169-bb27-632687569ccd';
+SELECT @@ROWCOUNT;
+2023-03-22 10:46:44.978 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+UPDATE [EmailAddresses] SET [IsPrimary] = NULL
+WHERE [Id] = 'd1a50413-20c0-4972-a351-8be24e1fc939';
+SELECT @@ROWCOUNT;
+2023-03-22 10:46:44.978 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230321181047_PrimaryEmail', N'7.0.0');
+2023-03-22 10:46:44.979 -04:00 [INF] Applying migration '20230322144520_DefaultValue'.
+2023-03-22 10:46:45.020 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230322144520_DefaultValue', N'7.0.0');
+2023-03-22 10:46:45.160 -04:00 [INF] User profile is available. Using 'C:\Users\notjo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-22 10:46:45.402 -04:00 [INF] Now listening on: https://localhost:7276
+2023-03-22 10:46:45.405 -04:00 [INF] Now listening on: http://localhost:5276
+2023-03-22 10:46:45.407 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-22 10:46:45.407 -04:00 [INF] Hosting environment: Development
+2023-03-22 10:46:45.407 -04:00 [INF] Content root path: O:\TestRepoSAB\ContactManagerStarter
+2023-03-22 10:46:46.378 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/ - -
+2023-03-22 10:46:46.484 -04:00 [INF] Executing endpoint 'ContactManagerStarter.Controllers.HomeController.Index (ContactManagerStarter)'
+2023-03-22 10:46:46.501 -04:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ContactManagerStarter.Controllers.HomeController (ContactManagerStarter).
+2023-03-22 10:46:46.517 -04:00 [INF] Executing ViewResult, running view Index.
+2023-03-22 10:46:46.675 -04:00 [INF] Executed ViewResult - view Index executed in 159.8635ms.
+2023-03-22 10:46:46.678 -04:00 [INF] Executed action ContactManagerStarter.Controllers.HomeController.Index (ContactManagerStarter) in 175.9569ms
+2023-03-22 10:46:46.679 -04:00 [INF] Executed endpoint 'ContactManagerStarter.Controllers.HomeController.Index (ContactManagerStarter)'
+2023-03-22 10:46:46.707 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/ - - - 200 - text/html;+charset=utf-8 331.0198ms
+2023-03-22 10:46:46.750 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/lib/bootstrap/dist/css/bootstrap.css - -
+2023-03-22 10:46:46.750 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/css/themify-icons.css - -
+2023-03-22 10:46:46.750 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/lib/jquery/dist/jquery.js - -
+2023-03-22 10:46:46.750 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/lib/bootstrap/dist/js/bootstrap.bundle.js - -
+2023-03-22 10:46:46.751 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/css/site.css - -
+2023-03-22 10:46:46.752 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - -
+2023-03-22 10:46:46.766 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/lib/signalr/dist/browser/signalr.js - -
+2023-03-22 10:46:46.780 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-03-22 10:46:46.783 -04:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.css was not modified
+2023-03-22 10:46:46.783 -04:00 [INF] The file /js/site.js was not modified
+2023-03-22 10:46:46.783 -04:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.js was not modified
+2023-03-22 10:46:46.783 -04:00 [INF] The file /css/site.css was not modified
+2023-03-22 10:46:46.783 -04:00 [INF] The file /css/themify-icons.css was not modified
+2023-03-22 10:46:46.783 -04:00 [INF] The file /lib/signalr/dist/browser/signalr.js was not modified
+2023-03-22 10:46:46.783 -04:00 [INF] The file /lib/jquery/dist/jquery.js was not modified
+2023-03-22 10:46:46.785 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/lib/bootstrap/dist/css/bootstrap.css - - - 304 - text/css 34.9584ms
+2023-03-22 10:46:46.785 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/lib/bootstrap/dist/js/bootstrap.bundle.js - - - 304 - text/javascript 34.8475ms
+2023-03-22 10:46:46.785 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/lib/signalr/dist/browser/signalr.js - - - 304 - text/javascript 19.4583ms
+2023-03-22 10:46:46.785 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/lib/jquery/dist/jquery.js - - - 304 - text/javascript 34.7866ms
+2023-03-22 10:46:46.785 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 304 - text/javascript 7.9906ms
+2023-03-22 10:46:46.786 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/css/site.css - - - 304 - text/css 34.3791ms
+2023-03-22 10:46:46.786 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/css/themify-icons.css - - - 304 - text/css 35.8241ms
+2023-03-22 10:46:46.802 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 50.0336ms
+2023-03-22 10:46:46.981 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/_vs/browserLink - -
+2023-03-22 10:46:47.173 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 191.7420ms
+2023-03-22 10:47:01.988 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts - -
+2023-03-22 10:47:01.992 -04:00 [INF] Executing endpoint 'ContactManager.Controllers.ContactsController.Index (ContactManagerStarter)'
+2023-03-22 10:47:01.994 -04:00 [INF] Route matched with {action = "Index", controller = "Contacts"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ContactManager.Controllers.ContactsController (ContactManagerStarter).
+2023-03-22 10:47:02.023 -04:00 [INF] [Logger] 3/22/2023 10:47:02 AM: Reached Index
+2023-03-22 10:47:02.024 -04:00 [INF] Executing ViewResult, running view Index.
+2023-03-22 10:47:02.033 -04:00 [INF] Executed ViewResult - view Index executed in 10.4517ms.
+2023-03-22 10:47:02.034 -04:00 [INF] Executed action ContactManager.Controllers.ContactsController.Index (ContactManagerStarter) in 40.3521ms
+2023-03-22 10:47:02.034 -04:00 [INF] Executed endpoint 'ContactManager.Controllers.ContactsController.Index (ContactManagerStarter)'
+2023-03-22 10:47:02.038 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts - - - 200 - text/html;+charset=utf-8 50.2075ms
+2023-03-22 10:47:02.064 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/js/ContactTable.js - -
+2023-03-22 10:47:02.067 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/_vs/browserLink - -
+2023-03-22 10:47:02.067 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - -
+2023-03-22 10:47:02.071 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 4.2348ms
+2023-03-22 10:47:02.078 -04:00 [INF] The file /js/ContactTable.js was not modified
+2023-03-22 10:47:02.078 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/js/ContactTable.js - - - 304 - text/javascript 13.3134ms
+2023-03-22 10:47:02.111 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 44.3271ms
+2023-03-22 10:47:02.154 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts/GetContacts application/json;+charset=utf-8 -
+2023-03-22 10:47:02.157 -04:00 [INF] Request starting HTTP/2 POST https://localhost:7276/contactHub/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0
+2023-03-22 10:47:02.164 -04:00 [INF] Executing endpoint '/contacthub/negotiate'
+2023-03-22 10:47:02.164 -04:00 [INF] Executing endpoint 'ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter)'
+2023-03-22 10:47:02.178 -04:00 [INF] Route matched with {action = "GetContacts", controller = "Contacts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetContacts() on controller ContactManager.Controllers.ContactsController (ContactManagerStarter).
+2023-03-22 10:47:02.190 -04:00 [INF] Executed endpoint '/contacthub/negotiate'
+2023-03-22 10:47:02.190 -04:00 [INF] Request finished HTTP/2 POST https://localhost:7276/contactHub/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 - 200 316 application/json 33.8172ms
+2023-03-22 10:47:02.205 -04:00 [INF] Request starting HTTP/2 CONNECT https://localhost:7276/contactHub?id=aGtN4iHz80jX_cke0gn6HA - -
+2023-03-22 10:47:02.206 -04:00 [INF] Executing endpoint '/contacthub'
+2023-03-22 10:47:02.512 -04:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='600']
+SELECT [c].[Id], [c].[DOB], [c].[FirstName], [c].[LastName], [c].[Title]
+FROM [Contacts] AS [c]
+ORDER BY [c].[FirstName]
+2023-03-22 10:47:02.572 -04:00 [INF] Executing PartialViewResult, running view _ContactTable.
+2023-03-22 10:47:02.636 -04:00 [INF] Executed PartialViewResult - view _ContactTable executed in 64.7191ms.
+2023-03-22 10:47:02.636 -04:00 [INF] Executed action ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter) in 457.667ms
+2023-03-22 10:47:02.636 -04:00 [INF] Executed endpoint 'ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter)'
+2023-03-22 10:47:02.640 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts/GetContacts application/json;+charset=utf-8 - - 200 - text/html;+charset=utf-8 485.2492ms
+2023-03-22 10:47:03.472 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=930d4f10-9daf-4582-b4bb-cb9abfd382b3 application/json;+charset=utf-8 -
+2023-03-22 10:47:03.473 -04:00 [INF] Executing endpoint 'ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)'
+2023-03-22 10:47:03.485 -04:00 [INF] Route matched with {action = "EditContact", controller = "Contacts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditContact(System.Guid) on controller ContactManager.Controllers.ContactsController (ContactManagerStarter).
+2023-03-22 10:47:03.740 -04:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2023-03-22 10:47:03.785 -04:00 [INF] Executed DbCommand (21ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='600']
+SELECT [t].[Id], [t].[DOB], [t].[FirstName], [t].[LastName], [t].[Title], [e].[Id], [e].[ContactId], [e].[Email], [e].[IsPrimary], [e].[Type], [a].[Id], [a].[City], [a].[ContactId], [a].[State], [a].[Street1], [a].[Street2], [a].[Type], [a].[Zip]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[DOB], [c].[FirstName], [c].[LastName], [c].[Title]
+    FROM [Contacts] AS [c]
+    WHERE [c].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [EmailAddresses] AS [e] ON [t].[Id] = [e].[ContactId]
+LEFT JOIN [Addresses] AS [a] ON [t].[Id] = [a].[ContactId]
+ORDER BY [t].[Id], [e].[Id]
+2023-03-22 10:47:07.373 -04:00 [INF] [Logger] 3/22/2023 10:47:07 AM: No primary email found, setting
+2023-03-22 10:47:07.374 -04:00 [INF] Executing PartialViewResult, running view _EditContact.
+2023-03-22 10:47:07.434 -04:00 [INF] Executed PartialViewResult - view _EditContact executed in 60.524ms.
+2023-03-22 10:47:07.434 -04:00 [INF] Executed action ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter) in 3948.6803ms
+2023-03-22 10:47:07.434 -04:00 [INF] Executed endpoint 'ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)'
+2023-03-22 10:47:07.435 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=930d4f10-9daf-4582-b4bb-cb9abfd382b3 application/json;+charset=utf-8 - - 200 - text/html;+charset=utf-8 3962.9913ms
+2023-03-22 10:47:10.049 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=b728f6ef-65d8-4da2-8e5f-0f67e3c3401c application/json;+charset=utf-8 -
+2023-03-22 10:47:10.050 -04:00 [INF] Executing endpoint 'ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)'
+2023-03-22 10:47:10.050 -04:00 [INF] Route matched with {action = "EditContact", controller = "Contacts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditContact(System.Guid) on controller ContactManager.Controllers.ContactsController (ContactManagerStarter).
+2023-03-22 10:47:10.059 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='600']
+SELECT [t].[Id], [t].[DOB], [t].[FirstName], [t].[LastName], [t].[Title], [e].[Id], [e].[ContactId], [e].[Email], [e].[IsPrimary], [e].[Type], [a].[Id], [a].[City], [a].[ContactId], [a].[State], [a].[Street1], [a].[Street2], [a].[Type], [a].[Zip]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[DOB], [c].[FirstName], [c].[LastName], [c].[Title]
+    FROM [Contacts] AS [c]
+    WHERE [c].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [EmailAddresses] AS [e] ON [t].[Id] = [e].[ContactId]
+LEFT JOIN [Addresses] AS [a] ON [t].[Id] = [a].[ContactId]
+ORDER BY [t].[Id], [e].[Id]
+2023-03-22 10:47:10.061 -04:00 [INF] [Logger] 3/22/2023 10:47:10 AM: No primary email found, setting
+2023-03-22 10:47:10.061 -04:00 [INF] Executing PartialViewResult, running view _EditContact.
+2023-03-22 10:47:10.064 -04:00 [INF] Executed PartialViewResult - view _EditContact executed in 3.2148ms.
+2023-03-22 10:47:10.064 -04:00 [INF] Executed action ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter) in 13.989ms
+2023-03-22 10:47:10.064 -04:00 [INF] Executed endpoint 'ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)'
+2023-03-22 10:47:10.064 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=b728f6ef-65d8-4da2-8e5f-0f67e3c3401c application/json;+charset=utf-8 - - 200 - text/html;+charset=utf-8 15.6306ms
+2023-03-22 10:47:12.166 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=99580d68-9d2f-4552-862e-06b3204193f1 application/json;+charset=utf-8 -
+2023-03-22 10:47:12.166 -04:00 [INF] Executing endpoint 'ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)'
+2023-03-22 10:47:12.166 -04:00 [INF] Route matched with {action = "EditContact", controller = "Contacts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditContact(System.Guid) on controller ContactManager.Controllers.ContactsController (ContactManagerStarter).
+2023-03-22 10:47:12.171 -04:00 [INF] Executed DbCommand (4ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='600']
+SELECT [t].[Id], [t].[DOB], [t].[FirstName], [t].[LastName], [t].[Title], [e].[Id], [e].[ContactId], [e].[Email], [e].[IsPrimary], [e].[Type], [a].[Id], [a].[City], [a].[ContactId], [a].[State], [a].[Street1], [a].[Street2], [a].[Type], [a].[Zip]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[DOB], [c].[FirstName], [c].[LastName], [c].[Title]
+    FROM [Contacts] AS [c]
+    WHERE [c].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [EmailAddresses] AS [e] ON [t].[Id] = [e].[ContactId]
+LEFT JOIN [Addresses] AS [a] ON [t].[Id] = [a].[ContactId]
+ORDER BY [t].[Id], [e].[Id]
+2023-03-22 10:47:12.172 -04:00 [INF] [Logger] 3/22/2023 10:47:12 AM: No primary email found, setting
+2023-03-22 10:47:12.172 -04:00 [INF] Executing PartialViewResult, running view _EditContact.
+2023-03-22 10:47:12.173 -04:00 [INF] Executed PartialViewResult - view _EditContact executed in 0.8839ms.
+2023-03-22 10:47:12.173 -04:00 [INF] Executed action ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter) in 7.1856ms
+2023-03-22 10:47:12.174 -04:00 [INF] Executed endpoint 'ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)'
+2023-03-22 10:47:12.174 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=99580d68-9d2f-4552-862e-06b3204193f1 application/json;+charset=utf-8 - - 200 - text/html;+charset=utf-8 7.8614ms

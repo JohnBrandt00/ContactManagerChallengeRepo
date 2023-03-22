@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
@@ -11,6 +12,7 @@ namespace ContactManager.Data
         public string Email { get; set; }
         public EmailType Type { get; set; }
 
+        [DefaultValue(null)]
         public bool? IsPrimary { get; set; }
         public virtual Contact Contact { get; set; }
     }

@@ -67,7 +67,7 @@ namespace ContactManager.Controllers
             {
                
 
-                if (contact.EmailAddresses.Where(i => i.IsPrimary != null).ToList().Count <= 0)
+                if ((contact.EmailAddresses.Where(i => i.IsPrimary != null).ToList().Count <= 0))
                 {
                     if (contact.EmailAddresses.First() != null)
                         contact.EmailAddresses.First().IsPrimary = true;
